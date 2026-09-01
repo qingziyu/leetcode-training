@@ -1,0 +1,24 @@
+{
+  "submissionId": "746109105",
+  "status": "Wrong Answer",
+  "timestamp": "2026-09-01T10:19:41.000Z",
+  "language": "Java",
+  "runtime": "N/A",
+  "memory": "N/A",
+  "passedTestCases": 5,
+  "totalTestCases": 39,
+  "failedTestcase": "[\"5\",\"2\",\"C\",\"D\",\"+\"]",
+  "input": "[\"5\",\"2\",\"C\",\"D\",\"+\"]",
+  "expectedOutput": "30",
+  "actualOutput": "17",
+  "compileError": "",
+  "runtimeError": "",
+  "timer": {
+    "source": "leetcode.cn-native-countdown",
+    "targetSeconds": null,
+    "remainingSeconds": 884,
+    "elapsedSeconds": null,
+    "capturedAt": "2026-09-01T10:19:46.405Z"
+  },
+  "submissionUrl": "https://leetcode.cn/problems/baseball-game/submissions/746109105/"
+}
