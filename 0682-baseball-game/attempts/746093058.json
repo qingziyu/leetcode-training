@@ -1,0 +1,17 @@
+{
+  "submissionId": "746093058",
+  "status": "Wrong Answer",
+  "timestamp": "2026-09-01T09:23:07.000Z",
+  "language": "Java",
+  "runtime": "N/A",
+  "memory": "N/A",
+  "passedTestCases": 5,
+  "totalTestCases": 39,
+  "failedTestcase": "[\"5\",\"2\",\"C\",\"D\",\"+\"]",
+  "input": "[\"5\",\"2\",\"C\",\"D\",\"+\"]",
+  "expectedOutput": "30",
+  "actualOutput": "17",
+  "compileError": "",
+  "runtimeError": "",
+  "submissionUrl": "https://leetcode.cn/problems/baseball-game/submissions/746093058/"
+}
