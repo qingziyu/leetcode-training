@@ -1,0 +1,17 @@
+{
+  "submissionId": "746093670",
+  "status": "Accepted",
+  "timestamp": "2026-09-01T09:24:37.000Z",
+  "language": "Java",
+  "runtime": "3 ms",
+  "memory": "43.1 MB",
+  "passedTestCases": 39,
+  "totalTestCases": 39,
+  "failedTestcase": "",
+  "input": "",
+  "expectedOutput": "",
+  "actualOutput": "",
+  "compileError": "",
+  "runtimeError": "",
+  "submissionUrl": "https://leetcode.cn/problems/baseball-game/submissions/746093670/"
+}
