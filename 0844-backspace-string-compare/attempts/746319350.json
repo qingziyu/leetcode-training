@@ -1,0 +1,18 @@
+{
+  "submissionId": "746319350",
+  "status": "Wrong Answer",
+  "timestamp": "2026-09-02T07:52:00.000Z",
+  "language": "Java",
+  "runtime": "N/A",
+  "memory": "N/A",
+  "passedTestCases": 106,
+  "totalTestCases": 115,
+  "failedTestcase": "\"bxj##tw\"\n\"bxj###tw\"",
+  "input": "\"bxj##tw\"\n\"bxj###tw\"",
+  "expectedOutput": "false",
+  "actualOutput": "true",
+  "compileError": "",
+  "runtimeError": "",
+  "timer": null,
+  "submissionUrl": "https://leetcode.cn/problems/backspace-string-compare/submissions/746319350/"
+}
