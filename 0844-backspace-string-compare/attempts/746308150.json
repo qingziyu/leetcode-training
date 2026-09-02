@@ -1,0 +1,18 @@
+{
+  "submissionId": "746308150",
+  "status": "Accepted",
+  "timestamp": "2026-09-02T07:22:29.000Z",
+  "language": "Java",
+  "runtime": "2 ms",
+  "memory": "42.2 MB",
+  "passedTestCases": 115,
+  "totalTestCases": 115,
+  "failedTestcase": "",
+  "input": "",
+  "expectedOutput": "",
+  "actualOutput": "",
+  "compileError": "",
+  "runtimeError": "",
+  "timer": null,
+  "submissionUrl": "https://leetcode.cn/problems/backspace-string-compare/submissions/746308150/"
+}
