@@ -1,0 +1,24 @@
+{
+  "submissionId": "746271042",
+  "status": "Runtime Error",
+  "timestamp": "2026-09-02T04:59:48.000Z",
+  "language": "Java",
+  "runtime": "N/A",
+  "memory": "N/A",
+  "passedTestCases": 0,
+  "totalTestCases": 65,
+  "failedTestcase": "[2,7,11,15]\n9",
+  "input": "[2,7,11,15]\n9",
+  "expectedOutput": "[0,1]",
+  "actualOutput": "",
+  "compileError": "",
+  "runtimeError": "java.lang.IllegalArgumentException: invalid input\n  at line 15, Solution.twoSum\n  at line 56, __DriverSolution__.__helper__\n  at line 89, __Driver__.main",
+  "timer": {
+    "source": "leetcode.cn-native-countdown",
+    "targetSeconds": null,
+    "remainingSeconds": 867,
+    "elapsedSeconds": null,
+    "capturedAt": "2026-09-02T04:59:48.535Z"
+  },
+  "submissionUrl": "https://leetcode.cn/problems/two-sum/submissions/746271042/"
+}
