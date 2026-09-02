@@ -7,6 +7,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0682-baseball-game](https://github.com/qingziyu/leetcode-training/tree/main/0682-baseball-game/) | undefined |
+| [0844-backspace-string-compare](https://github.com/qingziyu/leetcode-training/tree/main/0844-backspace-string-compare/) | Easy |
 ## Array
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -16,8 +17,17 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0682-baseball-game](https://github.com/qingziyu/leetcode-training/tree/main/0682-baseball-game/) | undefined |
+| [0844-backspace-string-compare](https://github.com/qingziyu/leetcode-training/tree/main/0844-backspace-string-compare/) | Easy |
 ## Hash Table
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0001-two-sum](https://github.com/qingziyu/leetcode-training/tree/main/0001-two-sum/) | Easy |
+## Two Pointers
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0844-backspace-string-compare](https://github.com/qingziyu/leetcode-training/tree/main/0844-backspace-string-compare/) | Easy |
+## String
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0844-backspace-string-compare](https://github.com/qingziyu/leetcode-training/tree/main/0844-backspace-string-compare/) | Easy |
 <!---LeetCode Topics End-->
