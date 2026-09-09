@@ -1,0 +1,24 @@
+{
+  "submissionId": "747954833",
+  "status": "Wrong Answer",
+  "timestamp": "2026-09-09T07:39:51.000Z",
+  "language": "Java",
+  "runtime": "N/A",
+  "memory": "N/A",
+  "passedTestCases": 113,
+  "totalTestCases": 115,
+  "failedTestcase": "\"a\"\n\"aa#a\"",
+  "input": "\"a\"\n\"aa#a\"",
+  "expectedOutput": "false",
+  "actualOutput": "true",
+  "compileError": "",
+  "runtimeError": "",
+  "timer": {
+    "source": "leetcode.cn-native-countdown",
+    "targetSeconds": 3600,
+    "remainingSeconds": 949,
+    "elapsedSeconds": 2651,
+    "capturedAt": "2026-09-09T07:39:51.727Z"
+  },
+  "submissionUrl": "https://leetcode.cn/problems/backspace-string-compare/submissions/747954833/"
+}
