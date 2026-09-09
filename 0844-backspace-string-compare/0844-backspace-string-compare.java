@@ -1,34 +1,66 @@
 class Solution {
     public boolean backspaceCompare(String s, String t) {
-        Deque<Character> stack = new ArrayDeque<>();
-        int count = 0;
+        int sPointer = s.length() - 1;
+        int tPointer = t.length() - 1;
 
-        for (char c : s.toCharArray()) {
-            if (stack.size() > 0 && c == '#') {
-                stack.remove();
-            } else if (c != '#') {
-                stack.push(c);
+        while (sPointer >= 0 && tPointer >=0) {
+            sPointer = findNextNumber(s, sPointer);
+            tPointer = findNextNumber(t, tPointer);
+
+            if(sPointer < 0 ^ tPointer < 0) {
+                return false;
+            } else if (sPointer < 0 && tPointer < 0) {
+                return true;
             }
+
+            char currentSChar = s.charAt(sPointer);
+            char currentTChar = t.charAt(tPointer);
+
+            if (currentSChar != currentTChar) {
+                return false;
+            }
+
+            sPointer--;
+            tPointer--;
         }
 
-        for (int i = t.length() - 1; i >= 0; i--) {
-            char currentChar = t.charAt(i);
-            if (currentChar == '#') {
-                count++;
-            } else if (currentChar != '#' && count > 0) {
-                count--;
-                continue;
-            } else if (stack.size() > 0 && currentChar == stack.peek()) {
-                stack.remove();       
-            } else {
+        if (sPointer < 0 && tPointer >= 0) {
+            tPointer =  findNextNumber(t, tPointer);
+
+            if (tPointer >= 0) {
+                return false;
+            }
+        }
+        
+        if (tPointer < 0 && sPointer >= 0) {
+            sPointer =  findNextNumber(s, sPointer);
+
+            if (sPointer >= 0) {
                 return false;
             }
         }
 
-        if (stack.size() > 0) {
-            return false;
+        return true;
+    }
+
+    private int findNextNumber(String s, int pointer) {
+        int count = 0;
+        while (pointer >= 0) {
+            char currentChar = s.charAt(pointer);
+
+            if (currentChar == '#') {
+                count++;
+                pointer--;
+                continue;
+            } else if (count > 0) {
+                count--;
+                pointer--;
+                continue;
+            } else {
+                return pointer;
+            }
         }
 
-        return true;
+        return -1;
     }
 }
