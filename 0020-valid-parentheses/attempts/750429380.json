@@ -1,0 +1,24 @@
+{
+  "submissionId": "750429380",
+  "status": "Runtime Error",
+  "timestamp": "2026-09-20T09:16:21.000Z",
+  "language": "Java",
+  "runtime": "N/A",
+  "memory": "N/A",
+  "passedTestCases": 7,
+  "totalTestCases": 103,
+  "failedTestcase": "\"]\"",
+  "input": "\"]\"",
+  "expectedOutput": "false",
+  "actualOutput": "",
+  "compileError": "",
+  "runtimeError": "java.lang.NullPointerException: Cannot invoke \"java.lang.Character.charValue()\" because the return value of \"java.util.Deque.peek()\" is null\n  at line 21, Solution.isValid\n  at line 56, __DriverSolution__.__helper__\n  at line 86, __Driver__.main",
+  "timer": {
+    "source": "leetcode.cn-native-countdown",
+    "targetSeconds": 3600,
+    "remainingSeconds": 2665,
+    "elapsedSeconds": 935,
+    "capturedAt": "2026-09-20T09:16:33.459Z"
+  },
+  "submissionUrl": "https://leetcode.cn/problems/valid-parentheses/submissions/750429380/"
+}
