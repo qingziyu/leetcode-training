@@ -3,26 +3,27 @@ class Solution {
         Deque<Integer> stack = new ArrayDeque<>();
         int result = 0;
 
-        for (String s : operations) {
-            if (Character.isDigit(s.charAt(0)) || s.charAt(0) == '-') {
-                stack.push(Integer.parseInt(s));
-            } else if (s.charAt(0) == '+') {
-                int tmpOne = stack.removeFirst();
-                int tmpTwo = stack.peek();
-                int sum = tmpOne + tmpTwo;
-                stack.push(tmpOne);
+        for (int i = 0; i < operations.length; i++) {
+            String currentStr = operations[i];
+
+            if (currentStr.matches("[+-]?[0-9]+")) {
+                stack.push(Integer.parseInt(currentStr));
+            } else if (currentStr.equals("C")) {
+                stack.pop();
+            } else if (currentStr.equals("D")) {
+                stack.push(stack.peek() * 2);
+            } else {
+                int first = stack.pop();
+                int second = stack.peek();
+                int sum = first + second;
+
+                stack.push(first);
                 stack.push(sum);
-            } else if (s.charAt(0) == 'D') {
-                int tmp = stack.peek();
-                stack.push(tmp*2);
-            } else if (s.charAt(0) == 'C') {
-                stack.remove();
             }
         }
 
-       
-        while(stack.size() > 0) {
-            result += stack.removeFirst();
+        while(!stack.isEmpty()) {
+            result += stack.pop();
         }
 
         return result;
