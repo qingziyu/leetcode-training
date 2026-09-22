@@ -7,6 +7,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0020-valid-parentheses](https://github.com/qingziyu/leetcode-training/tree/main/0020-valid-parentheses/) | Easy |
+| [0155-min-stack](https://github.com/qingziyu/leetcode-training/tree/main/0155-min-stack/) | Medium |
 | [0682-baseball-game](https://github.com/qingziyu/leetcode-training/tree/main/0682-baseball-game/) | undefined |
 | [0844-backspace-string-compare](https://github.com/qingziyu/leetcode-training/tree/main/0844-backspace-string-compare/) | Easy |
 ## Array
@@ -36,4 +37,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0020-valid-parentheses](https://github.com/qingziyu/leetcode-training/tree/main/0020-valid-parentheses/) | Easy |
+## Design
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0155-min-stack](https://github.com/qingziyu/leetcode-training/tree/main/0155-min-stack/) | Medium |
 <!---LeetCode Topics End-->
