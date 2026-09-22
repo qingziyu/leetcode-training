@@ -1,0 +1,24 @@
+{
+  "submissionId": "750836850",
+  "status": "Compile Error",
+  "timestamp": "2026-09-22T06:19:18.000Z",
+  "language": "Java",
+  "runtime": "N/A",
+  "memory": "N/A",
+  "passedTestCases": 0,
+  "totalTestCases": 4,
+  "failedTestcase": "",
+  "input": "",
+  "expectedOutput": "",
+  "actualOutput": "{\"compile_error\": \"Line 20: error: incompatible types: unexpected return value [in MinStack.java]\"}",
+  "compileError": "Line 20: error: incompatible types: unexpected return value [in MinStack.java]\n        return this.previousStack;\n                   ^\nLine 34: error: constructor MinStack in class MinStack cannot be applied to given types; [in __Driver__.java]\n        return new MinStack();\n               ^\n  required: int,MinStack\n  found:    no arguments\n  reason: actual and formal argument lists differ in length\n2 errors",
+  "runtimeError": "",
+  "timer": {
+    "source": "leetcode.cn-native-countdown",
+    "targetSeconds": 3600,
+    "remainingSeconds": 1922,
+    "elapsedSeconds": 1678,
+    "capturedAt": "2026-09-22T06:19:21.529Z"
+  },
+  "submissionUrl": "https://leetcode.cn/problems/min-stack/submissions/750836850/"
+}
