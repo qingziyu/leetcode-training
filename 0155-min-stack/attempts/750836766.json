@@ -1,0 +1,24 @@
+{
+  "submissionId": "750836766",
+  "status": "Compile Error",
+  "timestamp": "2026-09-22T06:19:01.000Z",
+  "language": "Java",
+  "runtime": "N/A",
+  "memory": "N/A",
+  "passedTestCases": 0,
+  "totalTestCases": 4,
+  "failedTestcase": "",
+  "input": "",
+  "expectedOutput": "",
+  "actualOutput": "{\"compile_error\": \"Line 8: error: ';' expected [in MinStack.java]\"}",
+  "compileError": "Line 8: error: ';' expected [in MinStack.java]\n        this.previousStack = previousStack\n                                          ^\nLine 11: error: ';' expected [in MinStack.java]\n            minSeenInt = currentInt\n                                   ^\n2 errors",
+  "runtimeError": "",
+  "timer": {
+    "source": "leetcode.cn-native-countdown",
+    "targetSeconds": 3600,
+    "remainingSeconds": 1939,
+    "elapsedSeconds": 1661,
+    "capturedAt": "2026-09-22T06:19:04.629Z"
+  },
+  "submissionUrl": "https://leetcode.cn/problems/min-stack/submissions/750836766/"
+}
