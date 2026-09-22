@@ -1,0 +1,24 @@
+{
+  "submissionId": "750833827",
+  "status": "Wrong Answer",
+  "timestamp": "2026-09-22T06:05:11.000Z",
+  "language": "Java",
+  "runtime": "N/A",
+  "memory": "N/A",
+  "passedTestCases": 2,
+  "totalTestCases": 45,
+  "failedTestcase": "[\"MinStack\",\"push\",\"push\",\"push\",\"getMin\",\"pop\",\"top\",\"getMin\"]\n[[],[-2],[0],[-3],[],[],[],[]]",
+  "input": "[\"MinStack\",\"push\",\"push\",\"push\",\"getMin\",\"pop\",\"top\",\"getMin\"]\n[[],[-2],[0],[-3],[],[],[],[]]",
+  "expectedOutput": "[null,null,null,null,-3,null,0,-2]",
+  "actualOutput": "[null,null,null,null,0,null,0,0]",
+  "compileError": "",
+  "runtimeError": "",
+  "timer": {
+    "source": "leetcode.cn-native-countdown",
+    "targetSeconds": 3600,
+    "remainingSeconds": 2769,
+    "elapsedSeconds": 831,
+    "capturedAt": "2026-09-22T06:05:14.625Z"
+  },
+  "submissionUrl": "https://leetcode.cn/problems/min-stack/submissions/750833827/"
+}
