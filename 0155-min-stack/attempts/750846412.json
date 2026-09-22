@@ -1,0 +1,18 @@
+{
+  "submissionId": "750846412",
+  "status": "Compile Error",
+  "timestamp": "2026-09-22T06:54:48.000Z",
+  "language": "Java",
+  "runtime": "N/A",
+  "memory": "N/A",
+  "passedTestCases": 0,
+  "totalTestCases": 4,
+  "failedTestcase": "",
+  "input": "",
+  "expectedOutput": "",
+  "actualOutput": "{\"compile_error\": \"Line 36: error: cannot find symbol [in MinStack.java]\"}",
+  "compileError": "Line 36: error: cannot find symbol [in MinStack.java]\n        return currentInt;\n               ^\n  symbol:   variable currentInt\n  location: class MinStack\nLine 40: error: cannot find symbol [in MinStack.java]\n        return minSeenInt;\n               ^\n  symbol:   variable minSeenInt\n  location: class MinStack\n2 errors",
+  "runtimeError": "",
+  "timer": null,
+  "submissionUrl": "https://leetcode.cn/problems/min-stack/submissions/750846412/"
+}
