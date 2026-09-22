@@ -1,0 +1,18 @@
+{
+  "submissionId": "750846580",
+  "status": "Runtime Error",
+  "timestamp": "2026-09-22T06:55:22.000Z",
+  "language": "Java",
+  "runtime": "N/A",
+  "memory": "N/A",
+  "passedTestCases": 0,
+  "totalTestCases": 45,
+  "failedTestcase": "[\"MinStack\",\"push\",\"push\",\"push\",\"getMin\",\"pop\",\"top\",\"getMin\"]\n[[],[-2],[0],[-3],[],[],[],[]]",
+  "input": "[\"MinStack\",\"push\",\"push\",\"push\",\"getMin\",\"pop\",\"top\",\"getMin\"]\n[[],[-2],[0],[-3],[],[],[],[]]",
+  "expectedOutput": "[null,null,null,null,-3,null,0,-2]",
+  "actualOutput": "",
+  "compileError": "",
+  "runtimeError": "java.lang.NullPointerException: Cannot read field \"minSeenInt\" because \"this.node\" is null\n  at line 22, MinStack.push\n  at line 65, __Driver__.__helperSelectMethod__\n  at line 92, __Driver__.__helper__\n  at line 113, __Driver__.main",
+  "timer": null,
+  "submissionUrl": "https://leetcode.cn/problems/min-stack/submissions/750846580/"
+}
