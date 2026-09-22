@@ -1,0 +1,24 @@
+{
+  "submissionId": "750836815",
+  "status": "Compile Error",
+  "timestamp": "2026-09-22T06:19:12.000Z",
+  "language": "Java",
+  "runtime": "N/A",
+  "memory": "N/A",
+  "passedTestCases": 0,
+  "totalTestCases": 4,
+  "failedTestcase": "",
+  "input": "",
+  "expectedOutput": "",
+  "actualOutput": "{\"compile_error\": \"Line 11: error: ';' expected [in MinStack.java]\"}",
+  "compileError": "Line 11: error: ';' expected [in MinStack.java]\n            minSeenInt = currentInt\n                                   ^",
+  "runtimeError": "",
+  "timer": {
+    "source": "leetcode.cn-native-countdown",
+    "targetSeconds": 3600,
+    "remainingSeconds": 1929,
+    "elapsedSeconds": 1671,
+    "capturedAt": "2026-09-22T06:19:14.900Z"
+  },
+  "submissionUrl": "https://leetcode.cn/problems/min-stack/submissions/750836815/"
+}
