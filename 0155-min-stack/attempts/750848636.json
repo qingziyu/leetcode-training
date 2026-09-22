@@ -1,0 +1,18 @@
+{
+  "submissionId": "750848636",
+  "status": "Accepted",
+  "timestamp": "2026-09-22T07:02:19.000Z",
+  "language": "Java",
+  "runtime": "28 ms",
+  "memory": "102.5 MB",
+  "passedTestCases": 45,
+  "totalTestCases": 45,
+  "failedTestcase": "",
+  "input": "",
+  "expectedOutput": "",
+  "actualOutput": "",
+  "compileError": "",
+  "runtimeError": "",
+  "timer": null,
+  "submissionUrl": "https://leetcode.cn/problems/min-stack/submissions/750848636/"
+}
