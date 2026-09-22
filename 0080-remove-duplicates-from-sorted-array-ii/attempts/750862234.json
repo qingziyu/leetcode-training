@@ -1,0 +1,24 @@
+{
+  "submissionId": "750862234",
+  "status": "Wrong Answer",
+  "timestamp": "2026-09-22T07:43:10.000Z",
+  "language": "Java",
+  "runtime": "N/A",
+  "memory": "N/A",
+  "passedTestCases": 19,
+  "totalTestCases": 170,
+  "failedTestcase": "[1,1,1,2,2,3]",
+  "input": "[1,1,1,2,2,3]",
+  "expectedOutput": "[1,1,2,2,3]",
+  "actualOutput": "[1,1,1,3]",
+  "compileError": "",
+  "runtimeError": "",
+  "timer": {
+    "source": "leetcode.cn-native-countdown",
+    "targetSeconds": 3600,
+    "remainingSeconds": 2260,
+    "elapsedSeconds": 1340,
+    "capturedAt": "2026-09-22T07:43:13.534Z"
+  },
+  "submissionUrl": "https://leetcode.cn/problems/remove-duplicates-from-sorted-array-ii/submissions/750862234/"
+}
