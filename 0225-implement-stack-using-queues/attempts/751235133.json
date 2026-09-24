@@ -1,0 +1,24 @@
+{
+  "submissionId": "751235133",
+  "status": "Restrictions Failed",
+  "timestamp": "2026-09-24T04:19:22.000Z",
+  "language": "Java",
+  "runtime": "N/A",
+  "memory": "N/A",
+  "passedTestCases": 6,
+  "totalTestCases": 22,
+  "failedTestcase": "[\"MyStack\",\"push\",\"push\",\"top\",\"pop\",\"empty\"]\n[[],[1],[2],[],[],[]]",
+  "input": "[\"MyStack\",\"push\",\"push\",\"top\",\"pop\",\"empty\"]\n[[],[1],[2],[],[],[]]",
+  "expectedOutput": "[null,null,null,2,2,false]",
+  "actualOutput": "[null,null,null,2,2,true]",
+  "compileError": "",
+  "runtimeError": "",
+  "timer": {
+    "source": "leetcode.cn-native-countdown",
+    "targetSeconds": 3600,
+    "remainingSeconds": 1831,
+    "elapsedSeconds": 1769,
+    "capturedAt": "2026-09-24T04:19:28.385Z"
+  },
+  "submissionUrl": "https://leetcode.cn/problems/implement-stack-using-queues/submissions/751235133/"
+}
