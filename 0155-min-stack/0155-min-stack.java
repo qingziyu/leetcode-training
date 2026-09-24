@@ -1,39 +1,37 @@
 class MinStack {
+    Node node;
 
-    private static class Node {
-        int currentInt;
-        int minSeenInt;
+    private class Node {
+        int currentIInt;
         Node previousNode;
+        int minNum;
 
-        Node(int currentInt, int minSeenInt, Node previousNode){
-            this.currentInt = currentInt;
-            this.minSeenInt = minSeenInt;
+        Node(int value, Node previousNode, int minNum) {
+            this.currentIInt = value;
             this.previousNode = previousNode;
+            this.minNum = minNum;
         }
     }
 
-    private Node node;
-
     public MinStack() {
-        this.node = null;
+        Node node = null;
+        this.node = node;
     }
     
     public void push(int value) {
-        int currentMin;
-        if (this.node != null) {
+        Node node;
+        int tmpNum;
 
-            currentMin = this.node.minSeenInt;
-
-            if (currentMin > value) {
-                currentMin = value;
-            }
-
+        if (this.node == null) {
+            node = new Node(value, null, value);
+        } else if (value < this.node.minNum) {
+            tmpNum = this.node.minNum;
+            node = new Node(value, this.node, value);
         } else {
-            currentMin = value;
+            node = new Node(value, this.node, this.node.minNum);
         }
-        
-        Node newNode = new Node(value, currentMin, this.node);
-        this.node = newNode;
+
+        this.node = node;
     }
     
     public void pop() {
@@ -41,11 +39,11 @@ class MinStack {
     }
     
     public int top() {
-        return this.node.currentInt;
+        return this.node.currentIInt;
     }
     
     public int getMin() {
-        return this.node.minSeenInt;
+        return this.node.minNum;
     }
 }
 
