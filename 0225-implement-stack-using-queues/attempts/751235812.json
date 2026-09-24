@@ -1,0 +1,24 @@
+{
+  "submissionId": "751235812",
+  "status": "Restrictions Failed",
+  "timestamp": "2026-09-24T04:25:56.000Z",
+  "language": "Java",
+  "runtime": "N/A",
+  "memory": "N/A",
+  "passedTestCases": 4,
+  "totalTestCases": 22,
+  "failedTestcase": "[\"MyStack\",\"push\",\"pop\",\"empty\"]\n[[],[1],[],[]]",
+  "input": "[\"MyStack\",\"push\",\"pop\",\"empty\"]\n[[],[1],[],[]]",
+  "expectedOutput": "[null,null,1,true]",
+  "actualOutput": "",
+  "compileError": "",
+  "runtimeError": "java.lang.IndexOutOfBoundsException: Index 0 out of bounds for length 0\n  at line 100, java.base/jdk.internal.util.Preconditions.outOfBounds\n  at line 106, java.base/jdk.internal.util.Preconditions.outOfBoundsCheckIndex\n  at line 302, java.base/jdk.internal.util.Preconditions.checkIndex\n  at line 365, java.base/java.util.Objects.checkIndex\n  at line 428, java.base/java.util.ArrayList.get\n  at line 19, MyStack.pop\n  at line 69, __Driver__.__helperSelectMethod__\n  at line 91, __Driver__.__helper__\n  at line 112, __Driver__.main",
+  "timer": {
+    "source": "leetcode.cn-native-countdown",
+    "targetSeconds": 3600,
+    "remainingSeconds": 1437,
+    "elapsedSeconds": 2163,
+    "capturedAt": "2026-09-24T04:26:02.637Z"
+  },
+  "submissionUrl": "https://leetcode.cn/problems/implement-stack-using-queues/submissions/751235812/"
+}
