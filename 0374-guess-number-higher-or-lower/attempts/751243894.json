@@ -1,0 +1,24 @@
+{
+  "submissionId": "751243894",
+  "status": "Time Limit Exceeded",
+  "timestamp": "2026-09-24T05:45:35.000Z",
+  "language": "Java",
+  "runtime": "N/A",
+  "memory": "N/A",
+  "passedTestCases": 14,
+  "totalTestCases": 25,
+  "failedTestcase": "2126753390\n1702766719",
+  "input": "2126753390\n1702766719",
+  "expectedOutput": "1702766719",
+  "actualOutput": "",
+  "compileError": "",
+  "runtimeError": "",
+  "timer": {
+    "source": "leetcode.cn-native-countdown",
+    "targetSeconds": 3600,
+    "remainingSeconds": 2915,
+    "elapsedSeconds": 685,
+    "capturedAt": "2026-09-24T05:45:41.421Z"
+  },
+  "submissionUrl": "https://leetcode.cn/problems/guess-number-higher-or-lower/submissions/751243894/"
+}
