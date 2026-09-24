@@ -17,6 +17,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0001-two-sum](https://github.com/qingziyu/leetcode-training/tree/main/0001-two-sum/) | Easy |
 | [0080-remove-duplicates-from-sorted-array-ii](https://github.com/qingziyu/leetcode-training/tree/main/0080-remove-duplicates-from-sorted-array-ii/) | Medium |
 | [0682-baseball-game](https://github.com/qingziyu/leetcode-training/tree/main/0682-baseball-game/) | undefined |
+| [0704-binary-search](https://github.com/qingziyu/leetcode-training/tree/main/0704-binary-search/) | Easy |
 ## Simulation
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -49,4 +50,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0225-implement-stack-using-queues](https://github.com/qingziyu/leetcode-training/tree/main/0225-implement-stack-using-queues/) | Easy |
+## Binary Search
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0704-binary-search](https://github.com/qingziyu/leetcode-training/tree/main/0704-binary-search/) | Easy |
 <!---LeetCode Topics End-->
