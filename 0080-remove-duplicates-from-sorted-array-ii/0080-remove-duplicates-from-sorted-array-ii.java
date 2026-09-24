@@ -7,17 +7,16 @@ class Solution {
             int currentNum = nums[i];
             int previousNum = nums[i - 1];
 
-            if (previousNum == currentNum) {
+            if (currentNum == previousNum) {
                 count++;
+                nums[writePointer] = nums[i];
                 if (count <= 2) {
-                    nums[writePointer] = currentNum;
                     writePointer++;
-                    continue;
                 }
             } else {
-                nums[writePointer] = currentNum;
-                writePointer++;
+                nums[writePointer] = nums[i];
                 count = 1;
+                writePointer++;
             }
         }
 
