@@ -1,0 +1,24 @@
+{
+  "submissionId": "751272396",
+  "status": "Accepted",
+  "timestamp": "2026-09-24T08:01:37.000Z",
+  "language": "Java",
+  "runtime": "28 ms",
+  "memory": "102.4 MB",
+  "passedTestCases": 45,
+  "totalTestCases": 45,
+  "failedTestcase": "",
+  "input": "",
+  "expectedOutput": "",
+  "actualOutput": "",
+  "compileError": "",
+  "runtimeError": "",
+  "timer": {
+    "source": "leetcode.cn-native-countdown",
+    "targetSeconds": 3600,
+    "remainingSeconds": 1930,
+    "elapsedSeconds": 1670,
+    "capturedAt": "2026-09-24T08:01:44.364Z"
+  },
+  "submissionUrl": "https://leetcode.cn/problems/min-stack/submissions/751272396/"
+}
