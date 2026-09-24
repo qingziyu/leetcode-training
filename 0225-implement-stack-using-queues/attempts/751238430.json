@@ -1,0 +1,18 @@
+{
+  "submissionId": "751238430",
+  "status": "Restrictions Failed",
+  "timestamp": "2026-09-24T04:54:41.000Z",
+  "language": "Java",
+  "runtime": "N/A",
+  "memory": "N/A",
+  "passedTestCases": 0,
+  "totalTestCases": 4,
+  "failedTestcase": "",
+  "input": "",
+  "expectedOutput": "",
+  "actualOutput": "{\"compile_error\": \"Line 16: error: cannot find symbol [in MyStack.java]\"}",
+  "compileError": "Line 16: error: cannot find symbol [in MyStack.java]\n            listB.add(this.listA.get(0));\n                                ^\n  symbol:   method get(int)\n  location: variable listA of type ArrayDeque<Integer>\nLine 20: error: cannot find symbol [in MyStack.java]\n        int lastInt = this.listA.get(0);\n                                ^\n  symbol:   method get(int)\n  location: variable listA of type ArrayDeque<Integer>\nLine 30: error: cannot find symbol [in MyStack.java]\n            listB.add(this.listA.get(0));\n                                ^\n  symbol:   method get(int)\n  location: variable listA of type ArrayDeque<Integer>\nLine 34: error: cannot find symbol [in MyStack.java]\n        int lastInt = this.listA.get(0);\n                                ^\n  symbol:   method get(int)\n  location: variable listA of type ArrayDeque<Integer>\n4 errors",
+  "runtimeError": "",
+  "timer": null,
+  "submissionUrl": "https://leetcode.cn/problems/implement-stack-using-queues/submissions/751238430/"
+}
