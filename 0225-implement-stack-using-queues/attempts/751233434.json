@@ -1,0 +1,24 @@
+{
+  "submissionId": "751233434",
+  "status": "Restrictions Failed",
+  "timestamp": "2026-09-24T04:02:36.000Z",
+  "language": "Java",
+  "runtime": "N/A",
+  "memory": "N/A",
+  "passedTestCases": 22,
+  "totalTestCases": 22,
+  "failedTestcase": "",
+  "input": "",
+  "expectedOutput": "",
+  "actualOutput": "",
+  "compileError": "",
+  "runtimeError": "",
+  "timer": {
+    "source": "leetcode.cn-native-countdown",
+    "targetSeconds": 3600,
+    "remainingSeconds": 2837,
+    "elapsedSeconds": 763,
+    "capturedAt": "2026-09-24T04:02:42.577Z"
+  },
+  "submissionUrl": "https://leetcode.cn/problems/implement-stack-using-queues/submissions/751233434/"
+}
