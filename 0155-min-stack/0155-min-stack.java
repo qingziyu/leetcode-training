@@ -20,12 +20,10 @@ class MinStack {
     
     public void push(int value) {
         Node node;
-        int tmpNum;
 
         if (this.node == null) {
             node = new Node(value, null, value);
         } else if (value < this.node.minNum) {
-            tmpNum = this.node.minNum;
             node = new Node(value, this.node, value);
         } else {
             node = new Node(value, this.node, this.node.minNum);
