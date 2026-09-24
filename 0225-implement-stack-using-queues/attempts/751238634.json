@@ -1,0 +1,18 @@
+{
+  "submissionId": "751238634",
+  "status": "Accepted",
+  "timestamp": "2026-09-24T04:56:50.000Z",
+  "language": "Java",
+  "runtime": "0 ms",
+  "memory": "42 MB",
+  "passedTestCases": 22,
+  "totalTestCases": 22,
+  "failedTestcase": "",
+  "input": "",
+  "expectedOutput": "",
+  "actualOutput": "",
+  "compileError": "",
+  "runtimeError": "",
+  "timer": null,
+  "submissionUrl": "https://leetcode.cn/problems/implement-stack-using-queues/submissions/751238634/"
+}
