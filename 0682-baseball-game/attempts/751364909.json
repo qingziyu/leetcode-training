@@ -1,0 +1,24 @@
+{
+  "submissionId": "751364909",
+  "status": "Compile Error",
+  "timestamp": "2026-09-25T03:25:11.000Z",
+  "language": "Java",
+  "runtime": "N/A",
+  "memory": "N/A",
+  "passedTestCases": 0,
+  "totalTestCases": 4,
+  "failedTestcase": "",
+  "input": "",
+  "expectedOutput": "",
+  "actualOutput": "{\"compile_error\": \"Line 3: error: Deque is abstract; cannot be instantiated\"}",
+  "compileError": "Line 3: error: Deque is abstract; cannot be instantiated\n        Deque<Integer> stack = new Deque<>();\n                               ^\nLine 6: error: cannot find symbol\n        for (int i = 0; i < operations.length(); i++) {\n                                      ^\n  symbol:   method length()\n  location: variable operations of type String[]\nLine 18: error: incompatible types: Integer cannot be converted to String\n                int secInt = Integer.parseInt(stack.peek());\n                                                        ^\n3 errors",
+  "runtimeError": "",
+  "timer": {
+    "source": "leetcode.cn-native-countdown",
+    "targetSeconds": 3600,
+    "remainingSeconds": 3216,
+    "elapsedSeconds": 384,
+    "capturedAt": "2026-09-25T03:25:19.191Z"
+  },
+  "submissionUrl": "https://leetcode.cn/problems/baseball-game/submissions/751364909/"
+}
