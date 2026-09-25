@@ -1,0 +1,24 @@
+{
+  "submissionId": "751372879",
+  "status": "Time Limit Exceeded",
+  "timestamp": "2026-09-25T04:57:13.000Z",
+  "language": "Java",
+  "runtime": "N/A",
+  "memory": "N/A",
+  "passedTestCases": 1,
+  "totalTestCases": 1019,
+  "failedTestcase": "8",
+  "input": "8",
+  "expectedOutput": "2",
+  "actualOutput": "",
+  "compileError": "",
+  "runtimeError": "",
+  "timer": {
+    "source": "leetcode.cn-native-countdown",
+    "targetSeconds": 3600,
+    "remainingSeconds": 2906,
+    "elapsedSeconds": 694,
+    "capturedAt": "2026-09-25T04:57:21.276Z"
+  },
+  "submissionUrl": "https://leetcode.cn/problems/sqrtx/submissions/751372879/"
+}
