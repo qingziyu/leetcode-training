@@ -2,20 +2,18 @@ class Solution {
     public int search(int[] nums, int target) {
         int leftPointer = 0;
         int rightPointer = nums.length - 1;
-        int midPointer = (leftPointer + rightPointer) / 2;
 
-        while (leftPointer <= rightPointer) {
-            int currentNum = nums[midPointer];
+        while(leftPointer <= rightPointer) {
+            int midPointer  = (rightPointer - leftPointer)/2 + leftPointer;
+            int midNum = nums[midPointer];
 
-            if (currentNum == target) {
+            if (target == midNum) {
                 return midPointer;
-            } else if (currentNum > target) {
-                rightPointer = midPointer - 1;
+            } else if (target > midNum) {
+                leftPointer = midPointer + 1;
             } else {
-                leftPointer = midPointer + 1;   
+                rightPointer = midPointer - 1;
             }
-
-            midPointer = (leftPointer + rightPointer) / 2;
         }
 
         return -1;
