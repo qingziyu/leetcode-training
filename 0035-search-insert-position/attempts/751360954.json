@@ -1,0 +1,24 @@
+{
+  "submissionId": "751360954",
+  "status": "Accepted",
+  "timestamp": "2026-09-25T02:52:09.000Z",
+  "language": "Java",
+  "runtime": "0 ms",
+  "memory": "44 MB",
+  "passedTestCases": 68,
+  "totalTestCases": 68,
+  "failedTestcase": "",
+  "input": "",
+  "expectedOutput": "",
+  "actualOutput": "",
+  "compileError": "",
+  "runtimeError": "",
+  "timer": {
+    "source": "leetcode.cn-native-countdown",
+    "targetSeconds": 3600,
+    "remainingSeconds": 1395,
+    "elapsedSeconds": 2205,
+    "capturedAt": "2026-09-25T02:52:16.848Z"
+  },
+  "submissionUrl": "https://leetcode.cn/problems/search-insert-position/submissions/751360954/"
+}
