@@ -1,0 +1,24 @@
+{
+  "submissionId": "751373460",
+  "status": "Compile Error",
+  "timestamp": "2026-09-25T05:05:15.000Z",
+  "language": "Java",
+  "runtime": "N/A",
+  "memory": "N/A",
+  "passedTestCases": 0,
+  "totalTestCases": 4,
+  "failedTestcase": "",
+  "input": "",
+  "expectedOutput": "",
+  "actualOutput": "{\"compile_error\": \"Line 15: error: incompatible types: possible lossy conversion from long to int\"}",
+  "compileError": "Line 15: error: incompatible types: possible lossy conversion from long to int\n                return mid;\n                       ^\nLine 19: error: incompatible types: possible lossy conversion from long to int\n        return rightPointer;\n               ^\n2 errors",
+  "runtimeError": "",
+  "timer": {
+    "source": "leetcode.cn-native-countdown",
+    "targetSeconds": 3600,
+    "remainingSeconds": 2424,
+    "elapsedSeconds": 1176,
+    "capturedAt": "2026-09-25T05:05:22.892Z"
+  },
+  "submissionUrl": "https://leetcode.cn/problems/sqrtx/submissions/751373460/"
+}
