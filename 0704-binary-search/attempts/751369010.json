@@ -1,0 +1,24 @@
+{
+  "submissionId": "751369010",
+  "status": "Accepted",
+  "timestamp": "2026-09-25T04:05:36.000Z",
+  "language": "Java",
+  "runtime": "0 ms",
+  "memory": "47.5 MB",
+  "passedTestCases": 47,
+  "totalTestCases": 47,
+  "failedTestcase": "",
+  "input": "",
+  "expectedOutput": "",
+  "actualOutput": "",
+  "compileError": "",
+  "runtimeError": "",
+  "timer": {
+    "source": "leetcode.cn-native-countdown",
+    "targetSeconds": 3600,
+    "remainingSeconds": 3364,
+    "elapsedSeconds": 236,
+    "capturedAt": "2026-09-25T04:05:43.511Z"
+  },
+  "submissionUrl": "https://leetcode.cn/problems/binary-search/submissions/751369010/"
+}
