@@ -1,0 +1,24 @@
+{
+  "submissionId": "751364986",
+  "status": "Compile Error",
+  "timestamp": "2026-09-25T03:25:53.000Z",
+  "language": "Java",
+  "runtime": "N/A",
+  "memory": "N/A",
+  "passedTestCases": 0,
+  "totalTestCases": 4,
+  "failedTestcase": "",
+  "input": "",
+  "expectedOutput": "",
+  "actualOutput": "{\"compile_error\": \"Line 6: error: cannot find symbol\"}",
+  "compileError": "Line 6: error: cannot find symbol\n        for (int i = 0; i < operations.length(); i++) {\n                                      ^\n  symbol:   method length()\n  location: variable operations of type String[]\nLine 18: error: incompatible types: Integer cannot be converted to String\n                int secInt = Integer.parseInt(stack.peek());\n                                                        ^\n2 errors",
+  "runtimeError": "",
+  "timer": {
+    "source": "leetcode.cn-native-countdown",
+    "targetSeconds": 3600,
+    "remainingSeconds": 3175,
+    "elapsedSeconds": 425,
+    "capturedAt": "2026-09-25T03:26:00.640Z"
+  },
+  "submissionUrl": "https://leetcode.cn/problems/baseball-game/submissions/751364986/"
+}
