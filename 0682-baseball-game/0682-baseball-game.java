@@ -5,25 +5,25 @@ class Solution {
 
         for (int i = 0; i < operations.length; i++) {
             String currentStr = operations[i];
-
-            if (currentStr.matches("[+-]?[0-9]+")) {
+            if (currentStr.matches("-?[0-9]+")) {
                 stack.push(Integer.parseInt(currentStr));
             } else if (currentStr.equals("C")) {
                 stack.pop();
             } else if (currentStr.equals("D")) {
-                stack.push(stack.peek() * 2);
+                int currentNum = stack.peek();
+                stack.push(currentNum*2);
             } else {
-                int first = stack.pop();
-                int second = stack.peek();
-                int sum = first + second;
+                int topInt = stack.pop();
+                int secInt = stack.peek();
 
-                stack.push(first);
-                stack.push(sum);
+                stack.push(topInt);
+                stack.push(secInt + topInt);
             }
         }
 
         while(!stack.isEmpty()) {
-            result += stack.pop();
+            int topNum = stack.pop();
+            result = topNum + result;
         }
 
         return result;
