@@ -1,0 +1,24 @@
+{
+  "submissionId": "751373531",
+  "status": "Accepted",
+  "timestamp": "2026-09-25T05:06:08.000Z",
+  "language": "Java",
+  "runtime": "1 ms",
+  "memory": "41.9 MB",
+  "passedTestCases": 1019,
+  "totalTestCases": 1019,
+  "failedTestcase": "",
+  "input": "",
+  "expectedOutput": "",
+  "actualOutput": "",
+  "compileError": "",
+  "runtimeError": "",
+  "timer": {
+    "source": "leetcode.cn-native-countdown",
+    "targetSeconds": 3600,
+    "remainingSeconds": 2371,
+    "elapsedSeconds": 1229,
+    "capturedAt": "2026-09-25T05:06:15.483Z"
+  },
+  "submissionUrl": "https://leetcode.cn/problems/sqrtx/submissions/751373531/"
+}
