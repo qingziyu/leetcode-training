@@ -2,20 +2,18 @@ class Solution {
     public int searchInsert(int[] nums, int target) {
         int leftPointer = 0;
         int rightPointer = nums.length - 1;
-        int midPoiner = (leftPointer + rightPointer)/2;;
 
         while(leftPointer <= rightPointer) {
-            int currentMid = nums[midPoiner];
+            int midPointer = (rightPointer - leftPointer)/2 + leftPointer;
+            int midNum = nums[midPointer];
 
-            if (currentMid == target) {
-                return midPoiner;
-            } else if (currentMid < target) {
-                leftPointer = midPoiner + 1;
+            if (midNum < target) {
+                leftPointer = midPointer + 1;
+            } else if (midNum > target) {
+                rightPointer = midPointer - 1;
             } else {
-                rightPointer = midPoiner - 1;
+                return midPointer;
             }
-
-            midPoiner = (leftPointer + rightPointer)/2;
         }
 
         return leftPointer;
