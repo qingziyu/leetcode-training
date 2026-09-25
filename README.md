@@ -55,12 +55,14 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0035-search-insert-position](https://github.com/qingziyu/leetcode-training/tree/main/0035-search-insert-position/) | Easy |
+| [0278-first-bad-version](https://github.com/qingziyu/leetcode-training/tree/main/0278-first-bad-version/) | Easy |
 | [0367-valid-perfect-square](https://github.com/qingziyu/leetcode-training/tree/main/0367-valid-perfect-square/) | Easy |
 | [0374-guess-number-higher-or-lower](https://github.com/qingziyu/leetcode-training/tree/main/0374-guess-number-higher-or-lower/) | Easy |
 | [0704-binary-search](https://github.com/qingziyu/leetcode-training/tree/main/0704-binary-search/) | Easy |
 ## Interactive
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0278-first-bad-version](https://github.com/qingziyu/leetcode-training/tree/main/0278-first-bad-version/) | Easy |
 | [0374-guess-number-higher-or-lower](https://github.com/qingziyu/leetcode-training/tree/main/0374-guess-number-higher-or-lower/) | Easy |
 ## Math
 | Problem Name | Difficulty |
