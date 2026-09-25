@@ -55,6 +55,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0035-search-insert-position](https://github.com/qingziyu/leetcode-training/tree/main/0035-search-insert-position/) | Easy |
+| [0069-sqrtx](https://github.com/qingziyu/leetcode-training/tree/main/0069-sqrtx/) | Easy |
 | [0278-first-bad-version](https://github.com/qingziyu/leetcode-training/tree/main/0278-first-bad-version/) | Easy |
 | [0367-valid-perfect-square](https://github.com/qingziyu/leetcode-training/tree/main/0367-valid-perfect-square/) | Easy |
 | [0374-guess-number-higher-or-lower](https://github.com/qingziyu/leetcode-training/tree/main/0374-guess-number-higher-or-lower/) | Easy |
@@ -67,5 +68,10 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Math
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0069-sqrtx](https://github.com/qingziyu/leetcode-training/tree/main/0069-sqrtx/) | Easy |
 | [0367-valid-perfect-square](https://github.com/qingziyu/leetcode-training/tree/main/0367-valid-perfect-square/) | Easy |
+## 牛顿迭代法
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0069-sqrtx](https://github.com/qingziyu/leetcode-training/tree/main/0069-sqrtx/) | Easy |
 <!---LeetCode Topics End-->
