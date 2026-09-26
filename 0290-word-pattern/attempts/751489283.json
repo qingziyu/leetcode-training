@@ -1,0 +1,24 @@
+{
+  "submissionId": "751489283",
+  "status": "Runtime Error",
+  "timestamp": "2026-09-26T04:52:32.000Z",
+  "language": "Java",
+  "runtime": "N/A",
+  "memory": "N/A",
+  "passedTestCases": 0,
+  "totalTestCases": 44,
+  "failedTestcase": "\"abba\"\n\"dog cat cat dog\"",
+  "input": "\"abba\"\n\"dog cat cat dog\"",
+  "expectedOutput": "true",
+  "actualOutput": "",
+  "compileError": "",
+  "runtimeError": "java.lang.NullPointerException: Cannot invoke \"java.lang.Character.charValue()\" because the return value of \"java.util.Map.get(Object)\" is null\n  at line 17, Solution.wordPattern\n  at line 56, __DriverSolution__.__helper__\n  at line 89, __Driver__.main",
+  "timer": {
+    "source": "leetcode.cn-native-countdown",
+    "targetSeconds": null,
+    "remainingSeconds": 1787,
+    "elapsedSeconds": null,
+    "capturedAt": "2026-09-26T04:52:41.731Z"
+  },
+  "submissionUrl": "https://leetcode.cn/problems/word-pattern/submissions/751489283/"
+}
