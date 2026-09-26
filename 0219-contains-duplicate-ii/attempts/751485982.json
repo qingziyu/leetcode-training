@@ -1,0 +1,24 @@
+{
+  "submissionId": "751485982",
+  "status": "Wrong Answer",
+  "timestamp": "2026-09-26T04:16:09.000Z",
+  "language": "Java",
+  "runtime": "N/A",
+  "memory": "N/A",
+  "passedTestCases": 68,
+  "totalTestCases": 71,
+  "failedTestcase": "[1,2,1]\n0",
+  "input": "[1,2,1]\n0",
+  "expectedOutput": "false",
+  "actualOutput": "true",
+  "compileError": "",
+  "runtimeError": "",
+  "timer": {
+    "source": "leetcode.cn-native-countdown",
+    "targetSeconds": 3600,
+    "remainingSeconds": 1791,
+    "elapsedSeconds": 1809,
+    "capturedAt": "2026-09-26T04:16:18.680Z"
+  },
+  "submissionUrl": "https://leetcode.cn/problems/contains-duplicate-ii/submissions/751485982/"
+}
