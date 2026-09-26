@@ -1,0 +1,24 @@
+{
+  "submissionId": "751488481",
+  "status": "Wrong Answer",
+  "timestamp": "2026-09-26T04:42:59.000Z",
+  "language": "Java",
+  "runtime": "N/A",
+  "memory": "N/A",
+  "passedTestCases": 28,
+  "totalTestCases": 44,
+  "failedTestcase": "\"abba\"\n\"dog cat cat dog\"",
+  "input": "\"abba\"\n\"dog cat cat dog\"",
+  "expectedOutput": "true",
+  "actualOutput": "false",
+  "compileError": "",
+  "runtimeError": "",
+  "timer": {
+    "source": "leetcode.cn-native-countdown",
+    "targetSeconds": 3600,
+    "remainingSeconds": 2356,
+    "elapsedSeconds": 1244,
+    "capturedAt": "2026-09-26T04:43:09.139Z"
+  },
+  "submissionUrl": "https://leetcode.cn/problems/word-pattern/submissions/751488481/"
+}
