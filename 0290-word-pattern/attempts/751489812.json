@@ -1,0 +1,24 @@
+{
+  "submissionId": "751489812",
+  "status": "Wrong Answer",
+  "timestamp": "2026-09-26T04:58:25.000Z",
+  "language": "Java",
+  "runtime": "N/A",
+  "memory": "N/A",
+  "passedTestCases": 19,
+  "totalTestCases": 44,
+  "failedTestcase": "\"aaa\"\n\"aa aa aa aa\"",
+  "input": "\"aaa\"\n\"aa aa aa aa\"",
+  "expectedOutput": "false",
+  "actualOutput": "true",
+  "compileError": "",
+  "runtimeError": "",
+  "timer": {
+    "source": "leetcode.cn-native-countdown",
+    "targetSeconds": null,
+    "remainingSeconds": 1433,
+    "elapsedSeconds": null,
+    "capturedAt": "2026-09-26T04:58:35.463Z"
+  },
+  "submissionUrl": "https://leetcode.cn/problems/word-pattern/submissions/751489812/"
+}
