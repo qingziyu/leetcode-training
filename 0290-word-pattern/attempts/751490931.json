@@ -1,0 +1,24 @@
+{
+  "submissionId": "751490931",
+  "status": "Accepted",
+  "timestamp": "2026-09-26T05:10:39.000Z",
+  "language": "Java",
+  "runtime": "1 ms",
+  "memory": "42 MB",
+  "passedTestCases": 44,
+  "totalTestCases": 44,
+  "failedTestcase": "",
+  "input": "",
+  "expectedOutput": "",
+  "actualOutput": "",
+  "compileError": "",
+  "runtimeError": "",
+  "timer": {
+    "source": "leetcode.cn-native-countdown",
+    "targetSeconds": null,
+    "remainingSeconds": 700,
+    "elapsedSeconds": null,
+    "capturedAt": "2026-09-26T05:10:49.075Z"
+  },
+  "submissionUrl": "https://leetcode.cn/problems/word-pattern/submissions/751490931/"
+}
