@@ -1,0 +1,24 @@
+{
+  "submissionId": "751488375",
+  "status": "Runtime Error",
+  "timestamp": "2026-09-26T04:41:47.000Z",
+  "language": "Java",
+  "runtime": "N/A",
+  "memory": "N/A",
+  "passedTestCases": 0,
+  "totalTestCases": 44,
+  "failedTestcase": "\"abba\"\n\"dog cat cat dog\"",
+  "input": "\"abba\"\n\"dog cat cat dog\"",
+  "expectedOutput": "true",
+  "actualOutput": "",
+  "compileError": "",
+  "runtimeError": "java.lang.StringIndexOutOfBoundsException: Index 15 out of bounds for length 15\n  at line 55, java.base/jdk.internal.util.Preconditions$1.apply\n  at line 52, java.base/jdk.internal.util.Preconditions$1.apply\n  at line 213, java.base/jdk.internal.util.Preconditions$4.apply\n  at line 210, java.base/jdk.internal.util.Preconditions$4.apply\n  at line 98, java.base/jdk.internal.util.Preconditions.outOfBounds\n  at line 106, java.base/jdk.internal.util.Preconditions.outOfBoundsCheckIndex\n  at line 302, java.base/jdk.internal.util.Preconditions.checkIndex\n  at line 4904, java.base/java.lang.String.checkIndex\n  at line 45, java.base/java.lang.StringLatin1.charAt\n  at line 1624, java.base/java.lang.String.charAt\n  at line 27, Solution.findNextSpace\n  at line 8, Solution.wordPattern\n  at line 56, __DriverSolution__.__helper__\n  at line 89, __Driver__.main",
+  "timer": {
+    "source": "leetcode.cn-native-countdown",
+    "targetSeconds": 3600,
+    "remainingSeconds": 2428,
+    "elapsedSeconds": 1172,
+    "capturedAt": "2026-09-26T04:41:57.538Z"
+  },
+  "submissionUrl": "https://leetcode.cn/problems/word-pattern/submissions/751488375/"
+}
