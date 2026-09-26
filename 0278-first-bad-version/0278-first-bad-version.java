@@ -7,9 +7,9 @@ public class Solution extends VersionControl {
         int rightPointer = n;
 
         while(leftPointer < rightPointer) {
-            int midPointer = (rightPointer - leftPointer)/2 + leftPointer;
-
-            if (isBadVersion(midPointer)) {
+            int midPointer= (rightPointer - leftPointer)/2 +leftPointer;
+            
+            if(isBadVersion(midPointer)) {
                 rightPointer = midPointer;
             } else {
                 leftPointer = midPointer + 1;
