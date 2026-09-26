@@ -1,0 +1,24 @@
+{
+  "submissionId": "751496015",
+  "status": "Wrong Answer",
+  "timestamp": "2026-09-26T05:57:41.000Z",
+  "language": "Java",
+  "runtime": "N/A",
+  "memory": "N/A",
+  "passedTestCases": 22,
+  "totalTestCases": 128,
+  "failedTestcase": "[0,4,0,3,2]\n1",
+  "input": "[0,4,0,3,2]\n1",
+  "expectedOutput": "4.00000",
+  "actualOutput": "7.00000",
+  "compileError": "",
+  "runtimeError": "",
+  "timer": {
+    "source": "leetcode.cn-native-countdown",
+    "targetSeconds": 3600,
+    "remainingSeconds": 2236,
+    "elapsedSeconds": 1364,
+    "capturedAt": "2026-09-26T05:57:51.449Z"
+  },
+  "submissionUrl": "https://leetcode.cn/problems/maximum-average-subarray-i/submissions/751496015/"
+}
