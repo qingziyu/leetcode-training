@@ -1,0 +1,24 @@
+{
+  "submissionId": "751680715",
+  "status": "Wrong Answer",
+  "timestamp": "2026-09-27T08:35:47.000Z",
+  "language": "Java",
+  "runtime": "N/A",
+  "memory": "N/A",
+  "passedTestCases": 62,
+  "totalTestCases": 69,
+  "failedTestcase": "[2,2,2,2,5,5,5,8]\n3\n4",
+  "input": "[2,2,2,2,5,5,5,8]\n3\n4",
+  "expectedOutput": "3",
+  "actualOutput": "6",
+  "compileError": "",
+  "runtimeError": "",
+  "timer": {
+    "source": "leetcode.cn-native-countdown",
+    "targetSeconds": 3600,
+    "remainingSeconds": 2823,
+    "elapsedSeconds": 777,
+    "capturedAt": "2026-09-27T08:35:47.041Z"
+  },
+  "submissionUrl": "https://leetcode.cn/problems/number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold/submissions/751680715/"
+}
