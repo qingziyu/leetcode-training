@@ -32,6 +32,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0001-two-sum](https://github.com/qingziyu/leetcode-training/tree/main/0001-two-sum/) | Easy |
 | [0219-contains-duplicate-ii](https://github.com/qingziyu/leetcode-training/tree/main/0219-contains-duplicate-ii/) | Easy |
 | [0290-word-pattern](https://github.com/qingziyu/leetcode-training/tree/main/0290-word-pattern/) | Easy |
+| [0387-first-unique-character-in-a-string](https://github.com/qingziyu/leetcode-training/tree/main/0387-first-unique-character-in-a-string/) | Easy |
 ## Two Pointers
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -42,6 +43,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- | ------- |
 | [0020-valid-parentheses](https://github.com/qingziyu/leetcode-training/tree/main/0020-valid-parentheses/) | Easy |
 | [0290-word-pattern](https://github.com/qingziyu/leetcode-training/tree/main/0290-word-pattern/) | Easy |
+| [0387-first-unique-character-in-a-string](https://github.com/qingziyu/leetcode-training/tree/main/0387-first-unique-character-in-a-string/) | Easy |
 | [0844-backspace-string-compare](https://github.com/qingziyu/leetcode-training/tree/main/0844-backspace-string-compare/) | Easy |
 ## 括号序列
 | Problem Name | Difficulty |
@@ -56,6 +58,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0225-implement-stack-using-queues](https://github.com/qingziyu/leetcode-training/tree/main/0225-implement-stack-using-queues/) | Easy |
+| [0387-first-unique-character-in-a-string](https://github.com/qingziyu/leetcode-training/tree/main/0387-first-unique-character-in-a-string/) | Easy |
 ## Binary Search
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -84,4 +87,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- | ------- |
 | [0219-contains-duplicate-ii](https://github.com/qingziyu/leetcode-training/tree/main/0219-contains-duplicate-ii/) | Easy |
 | [0643-maximum-average-subarray-i](https://github.com/qingziyu/leetcode-training/tree/main/0643-maximum-average-subarray-i/) | Easy |
+## Counting
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0387-first-unique-character-in-a-string](https://github.com/qingziyu/leetcode-training/tree/main/0387-first-unique-character-in-a-string/) | Easy |
 <!---LeetCode Topics End-->
