@@ -1,0 +1,24 @@
+{
+  "submissionId": "751809608",
+  "status": "Runtime Error",
+  "timestamp": "2026-09-28T04:21:46.000Z",
+  "language": "Java",
+  "runtime": "N/A",
+  "memory": "N/A",
+  "passedTestCases": 0,
+  "totalTestCases": 23,
+  "failedTestcase": "7\n[2,3,1,2,4,3]",
+  "input": "7\n[2,3,1,2,4,3]",
+  "expectedOutput": "2",
+  "actualOutput": "",
+  "compileError": "",
+  "runtimeError": "java.lang.ArrayIndexOutOfBoundsException: Index 6 out of bounds for length 6\n  at line 11, Solution.minSubArrayLen\n  at line 56, __DriverSolution__.__helper__\n  at line 89, __Driver__.main",
+  "timer": {
+    "source": "leetcode.cn-native-countdown",
+    "targetSeconds": 3600,
+    "remainingSeconds": 3124,
+    "elapsedSeconds": 476,
+    "capturedAt": "2026-09-28T04:21:47.537Z"
+  },
+  "submissionUrl": "https://leetcode.cn/problems/minimum-size-subarray-sum/submissions/751809608/"
+}
