@@ -17,6 +17,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0001-two-sum](https://github.com/qingziyu/leetcode-training/tree/main/0001-two-sum/) | Easy |
 | [0035-search-insert-position](https://github.com/qingziyu/leetcode-training/tree/main/0035-search-insert-position/) | Easy |
 | [0080-remove-duplicates-from-sorted-array-ii](https://github.com/qingziyu/leetcode-training/tree/main/0080-remove-duplicates-from-sorted-array-ii/) | Medium |
+| [0209-minimum-size-subarray-sum](https://github.com/qingziyu/leetcode-training/tree/main/0209-minimum-size-subarray-sum/) | Medium |
 | [0219-contains-duplicate-ii](https://github.com/qingziyu/leetcode-training/tree/main/0219-contains-duplicate-ii/) | Easy |
 | [0350-intersection-of-two-arrays-ii](https://github.com/qingziyu/leetcode-training/tree/main/0350-intersection-of-two-arrays-ii/) | Easy |
 | [0643-maximum-average-subarray-i](https://github.com/qingziyu/leetcode-training/tree/main/0643-maximum-average-subarray-i/) | Easy |
@@ -70,6 +71,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- | ------- |
 | [0035-search-insert-position](https://github.com/qingziyu/leetcode-training/tree/main/0035-search-insert-position/) | Easy |
 | [0069-sqrtx](https://github.com/qingziyu/leetcode-training/tree/main/0069-sqrtx/) | Easy |
+| [0209-minimum-size-subarray-sum](https://github.com/qingziyu/leetcode-training/tree/main/0209-minimum-size-subarray-sum/) | Medium |
 | [0278-first-bad-version](https://github.com/qingziyu/leetcode-training/tree/main/0278-first-bad-version/) | Easy |
 | [0350-intersection-of-two-arrays-ii](https://github.com/qingziyu/leetcode-training/tree/main/0350-intersection-of-two-arrays-ii/) | Easy |
 | [0367-valid-perfect-square](https://github.com/qingziyu/leetcode-training/tree/main/0367-valid-perfect-square/) | Easy |
@@ -93,6 +95,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/qingziyu/leetcode-training/tree/main/0003-longest-substring-without-repeating-characters/) | Medium |
+| [0209-minimum-size-subarray-sum](https://github.com/qingziyu/leetcode-training/tree/main/0209-minimum-size-subarray-sum/) | Medium |
 | [0219-contains-duplicate-ii](https://github.com/qingziyu/leetcode-training/tree/main/0219-contains-duplicate-ii/) | Easy |
 | [0643-maximum-average-subarray-i](https://github.com/qingziyu/leetcode-training/tree/main/0643-maximum-average-subarray-i/) | Easy |
 | [1343-number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold](https://github.com/qingziyu/leetcode-training/tree/main/1343-number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold/) | Medium |
@@ -104,4 +107,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0350-intersection-of-two-arrays-ii](https://github.com/qingziyu/leetcode-training/tree/main/0350-intersection-of-two-arrays-ii/) | Easy |
+## Prefix Sum
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0209-minimum-size-subarray-sum](https://github.com/qingziyu/leetcode-training/tree/main/0209-minimum-size-subarray-sum/) | Medium |
 <!---LeetCode Topics End-->
