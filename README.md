@@ -11,6 +11,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0225-implement-stack-using-queues](https://github.com/qingziyu/leetcode-training/tree/main/0225-implement-stack-using-queues/) | Easy |
 | [0682-baseball-game](https://github.com/qingziyu/leetcode-training/tree/main/0682-baseball-game/) | undefined |
 | [0844-backspace-string-compare](https://github.com/qingziyu/leetcode-training/tree/main/0844-backspace-string-compare/) | Easy |
+| [1047-remove-all-adjacent-duplicates-in-string](https://github.com/qingziyu/leetcode-training/tree/main/1047-remove-all-adjacent-duplicates-in-string/) | Easy |
 ## Array
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -52,6 +53,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0290-word-pattern](https://github.com/qingziyu/leetcode-training/tree/main/0290-word-pattern/) | Easy |
 | [0387-first-unique-character-in-a-string](https://github.com/qingziyu/leetcode-training/tree/main/0387-first-unique-character-in-a-string/) | Easy |
 | [0844-backspace-string-compare](https://github.com/qingziyu/leetcode-training/tree/main/0844-backspace-string-compare/) | Easy |
+| [1047-remove-all-adjacent-duplicates-in-string](https://github.com/qingziyu/leetcode-training/tree/main/1047-remove-all-adjacent-duplicates-in-string/) | Easy |
 ## 括号序列
 | Problem Name | Difficulty |
 | ------- | ------- |
