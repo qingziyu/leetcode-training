@@ -113,4 +113,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0209-minimum-size-subarray-sum](https://github.com/qingziyu/leetcode-training/tree/main/0209-minimum-size-subarray-sum/) | Medium |
+## Recursion
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0021-merge-two-sorted-lists](https://github.com/qingziyu/leetcode-training/tree/main/0021-merge-two-sorted-lists/) | Easy |
+## Linked List
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0021-merge-two-sorted-lists](https://github.com/qingziyu/leetcode-training/tree/main/0021-merge-two-sorted-lists/) | Easy |
 <!---LeetCode Topics End-->
