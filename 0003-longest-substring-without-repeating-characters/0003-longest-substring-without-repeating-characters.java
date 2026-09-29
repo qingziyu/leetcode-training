@@ -2,30 +2,36 @@ class Solution {
     public int lengthOfLongestSubstring(String s) {
         int leftPointer = 0;
         int rightPointer = 0;
-        Map<Character, Integer> seenMap = new HashMap<>();
-        int longest = 0;
+        Map<Character, Integer> charToIndexMap = new HashMap<>();
+        int result = 1;
 
-        while(rightPointer <= s.length() - 1) {
-            char currentChar = s.charAt(rightPointer);
-            if (!seenMap.containsKey(currentChar)) {
-                seenMap.put(currentChar, rightPointer);
-            } else {
-                int index = seenMap.get(currentChar);
-
-                if (index >= leftPointer) {
-                    leftPointer = index + 1;
-                }
-
-                seenMap.put(currentChar, rightPointer);
-            }
-
-            if (rightPointer - leftPointer + 1 > longest) {
-                longest = rightPointer - leftPointer + 1;
-            }
-            
-            rightPointer++;
+        if(s.length() == 0) {
+            return 0;
         }
 
-        return longest;
+        while(leftPointer < s.length() - 1) {
+            char currentRight = s.charAt(rightPointer);
+            
+            if(charToIndexMap.containsKey(currentRight)) {
+                int index = charToIndexMap.get(currentRight);
+                if(index >= leftPointer) {
+                    leftPointer = index + 1;
+                }
+            }
+
+            charToIndexMap.put(currentRight, rightPointer);
+            int currentLength = rightPointer - leftPointer + 1;
+            if (currentLength > result) {
+                result = currentLength;
+            }
+
+            if (rightPointer < s.length() - 1) {
+                rightPointer++;
+            } else {
+                leftPointer++;
+            }
+        }
+
+        return result;
     }
 }
