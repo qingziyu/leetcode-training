@@ -16,7 +16,6 @@ class Solution {
         while (list1 != null || list2 != null) {
             int val = 0;
 
-
             if (list2 == null) {
                 ListNode nextNode = list1;
                 resultList.next = nextNode;
@@ -30,17 +29,15 @@ class Solution {
                 int valTwo = list2.val;
 
                 if (valOne < valTwo) {
-                    list1 = list1.next;
-                    val = valOne;
+                    resultList.next = list1;
+                    list1 = list1.next; 
                 } else {
-                    list2 = list2.next;
-                    val = valTwo;
+                    resultList.next = list2;
+                    list2 = list2.next; 
                 }
             }
 
-            ListNode nextNode = new ListNode(val);
-            resultList.next = nextNode;
-            resultList = nextNode;
+            resultList = resultList.next;
         }
 
         return tail.next;
