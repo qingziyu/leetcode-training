@@ -1,0 +1,24 @@
+{
+  "submissionId": "752088251",
+  "status": "Wrong Answer",
+  "timestamp": "2026-09-29T11:15:31.000Z",
+  "language": "Java",
+  "runtime": "N/A",
+  "memory": "N/A",
+  "passedTestCases": 238,
+  "totalTestCases": 1036,
+  "failedTestcase": "\"abcabcbb\"",
+  "input": "\"abcabcbb\"",
+  "expectedOutput": "3",
+  "actualOutput": "8",
+  "compileError": "",
+  "runtimeError": "",
+  "timer": {
+    "source": "leetcode.cn-native-countdown",
+    "targetSeconds": 3600,
+    "remainingSeconds": 1138,
+    "elapsedSeconds": 2462,
+    "capturedAt": "2026-09-29T11:15:35.538Z"
+  },
+  "submissionUrl": "https://leetcode.cn/problems/longest-substring-without-repeating-characters/submissions/752088251/"
+}
