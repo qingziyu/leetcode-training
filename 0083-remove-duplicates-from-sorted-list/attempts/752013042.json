@@ -1,0 +1,24 @@
+{
+  "submissionId": "752013042",
+  "status": "Compile Error",
+  "timestamp": "2026-09-29T05:25:53.000Z",
+  "language": "Java",
+  "runtime": "N/A",
+  "memory": "N/A",
+  "passedTestCases": 0,
+  "totalTestCases": 4,
+  "failedTestcase": "",
+  "input": "",
+  "expectedOutput": "",
+  "actualOutput": "{\"compile_error\": \"Line 15: error: bad operand types for binary operator '!='\"}",
+  "compileError": "Line 15: error: bad operand types for binary operator '!='\n        while(head.val != null) {\n                       ^\n  first type:  int\n  second type: <null>",
+  "runtimeError": "",
+  "timer": {
+    "source": "leetcode.cn-native-countdown",
+    "targetSeconds": 3600,
+    "remainingSeconds": 3345,
+    "elapsedSeconds": 255,
+    "capturedAt": "2026-09-29T05:25:57.076Z"
+  },
+  "submissionUrl": "https://leetcode.cn/problems/remove-duplicates-from-sorted-list/submissions/752013042/"
+}
