@@ -14,24 +14,21 @@ class Solution {
             return head;
         }
 
-        Deque<Integer> stack = new ArrayDeque<>();
+        ListNode dummy = head;
 
         while(head != null) {
-            stack.push(head.val);
-            head = head.next;
+            if (dummy == head) {
+                head = head.next;
+                dummy.next = null;
+                continue;
+            }
+
+            ListNode nextHead = head.next;
+            head.next = dummy;
+            dummy = head;
+            head = nextHead; 
         }
 
-        ListNode node = new ListNode();
-        ListNode tail = node;
-
-        while(!stack.isEmpty()) {
-            int currentInt = stack.pop();
-            ListNode newNode = new ListNode();
-            newNode.val = currentInt;
-            node.next = newNode;
-            node = newNode;
-        }
-
-        return tail.next;
+        return dummy;
     }
 }
