@@ -1,0 +1,24 @@
+{
+  "submissionId": "752323382",
+  "status": "Wrong Answer",
+  "timestamp": "2026-10-01T06:56:01.000Z",
+  "language": "Java",
+  "runtime": "N/A",
+  "memory": "N/A",
+  "passedTestCases": 2,
+  "totalTestCases": 28,
+  "failedTestcase": "[1,2,3,4,5]",
+  "input": "[1,2,3,4,5]",
+  "expectedOutput": "[5,4,3,2,1]",
+  "actualOutput": "Error - Found cycle in the ListNode",
+  "compileError": "",
+  "runtimeError": "",
+  "timer": {
+    "source": "leetcode.cn-native-countdown",
+    "targetSeconds": 3600,
+    "remainingSeconds": 2266,
+    "elapsedSeconds": 1334,
+    "capturedAt": "2026-10-01T06:56:01.129Z"
+  },
+  "submissionUrl": "https://leetcode.cn/problems/reverse-linked-list/submissions/752323382/"
+}
