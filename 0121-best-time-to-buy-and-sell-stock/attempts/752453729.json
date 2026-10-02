@@ -1,0 +1,24 @@
+{
+  "submissionId": "752453729",
+  "status": "Accepted",
+  "timestamp": "2026-10-02T07:08:21.000Z",
+  "language": "Java",
+  "runtime": "1 ms",
+  "memory": "92.4 MB",
+  "passedTestCases": 213,
+  "totalTestCases": 213,
+  "failedTestcase": "",
+  "input": "",
+  "expectedOutput": "",
+  "actualOutput": "",
+  "compileError": "",
+  "runtimeError": "",
+  "timer": {
+    "source": "leetcode.cn-native-countdown",
+    "targetSeconds": 3600,
+    "remainingSeconds": 3525,
+    "elapsedSeconds": 75,
+    "capturedAt": "2026-10-02T07:08:24.327Z"
+  },
+  "submissionUrl": "https://leetcode.cn/problems/best-time-to-buy-and-sell-stock/submissions/752453729/"
+}
