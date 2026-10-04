@@ -14,21 +14,16 @@ class Solution {
             return head;
         }
 
-        ListNode dummy = head;
+        ListNode prePointer = null;
+        ListNode curPointer = head;
 
-        while(head != null) {
-            if (dummy == head) {
-                head = head.next;
-                dummy.next = null;
-                continue;
-            }
-
-            ListNode nextHead = head.next;
-            head.next = dummy;
-            dummy = head;
-            head = nextHead; 
+        while(curPointer != null) {
+            ListNode nextNode = curPointer.next;
+            curPointer.next = prePointer;
+            prePointer = curPointer;
+            curPointer = nextNode;
         }
 
-        return dummy;
+        return prePointer;
     }
 }
