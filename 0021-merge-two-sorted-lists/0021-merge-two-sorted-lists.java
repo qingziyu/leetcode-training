@@ -14,18 +14,15 @@ class Solution {
         ListNode result = head;
 
         while(list1 != null || list2 != null) {
-            int nodeVal;
 
             if (list1 == null) {
-                nodeVal = list2.val;
-                head = createNewNode(head, nodeVal);
+                head = createNewNode(head, list2);
                 list2 = list2.next;
                 continue;
             }
 
             if (list2 == null) {
-                nodeVal = list1.val;
-                head = createNewNode(head, nodeVal);
+                head = createNewNode(head, list1);
                 list1 = list1.next;
                 continue;
             }
@@ -33,24 +30,20 @@ class Solution {
             int curOneNum = list1.val;
             int curTwoNum = list2.val;
             if (curOneNum > curTwoNum) {
-                nodeVal = curTwoNum;
+                head = createNewNode(head, list2);
                 list2 = list2.next;
             } else {
-                nodeVal = curOneNum;
+                head = createNewNode(head, list1);
                 list1 = list1.next;
-            }
-
-            head = createNewNode(head, nodeVal);
+            }            
         }
 
         return result.next;
     }
 
-    private ListNode createNewNode(ListNode head, int nodeVal) {
-        ListNode newNode = new ListNode();
-        newNode.val = nodeVal;
-        head.next = newNode;
-        head = newNode;
+    private ListNode createNewNode(ListNode head, ListNode nextNode) {
+        head.next = nextNode;
+        head = nextNode;
 
         return head;
     }
