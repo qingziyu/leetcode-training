@@ -1,0 +1,24 @@
+{
+  "submissionId": "752882626",
+  "status": "Runtime Error",
+  "timestamp": "2026-10-05T05:47:10.000Z",
+  "language": "Java",
+  "runtime": "N/A",
+  "memory": "N/A",
+  "passedTestCases": 3,
+  "totalTestCases": 29,
+  "failedTestcase": "[]\n-1",
+  "input": "[]\n-1",
+  "expectedOutput": "false",
+  "actualOutput": "",
+  "compileError": "",
+  "runtimeError": "java.lang.NullPointerException: Cannot read field \"next\" because \"<parameter1>\" is null\n  at line 14, Solution.hasCycle\n  at line 90, __Driver__.main",
+  "timer": {
+    "source": "leetcode.cn-native-countdown",
+    "targetSeconds": 3600,
+    "remainingSeconds": 3086,
+    "elapsedSeconds": 514,
+    "capturedAt": "2026-10-05T05:47:10.803Z"
+  },
+  "submissionUrl": "https://leetcode.cn/problems/linked-list-cycle/submissions/752882626/"
+}
