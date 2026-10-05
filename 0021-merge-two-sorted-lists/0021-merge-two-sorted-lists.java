@@ -17,14 +17,12 @@ class Solution {
 
             if (list1 == null) {
                 head = createNewNode(head, list2);
-                list2 = list2.next;
-                continue;
+                break;
             }
 
             if (list2 == null) {
                 head = createNewNode(head, list1);
-                list1 = list1.next;
-                continue;
+                break;
             }
 
             int curOneNum = list1.val;
