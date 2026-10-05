@@ -46,6 +46,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0080-remove-duplicates-from-sorted-array-ii](https://github.com/qingziyu/leetcode-training/tree/main/0080-remove-duplicates-from-sorted-array-ii/) | Medium |
 | [0350-intersection-of-two-arrays-ii](https://github.com/qingziyu/leetcode-training/tree/main/0350-intersection-of-two-arrays-ii/) | Easy |
 | [0844-backspace-string-compare](https://github.com/qingziyu/leetcode-training/tree/main/0844-backspace-string-compare/) | Easy |
+| [0876-middle-of-the-linked-list](https://github.com/qingziyu/leetcode-training/tree/main/0876-middle-of-the-linked-list/) | Easy |
 ## String
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -125,6 +126,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0021-merge-two-sorted-lists](https://github.com/qingziyu/leetcode-training/tree/main/0021-merge-two-sorted-lists/) | Easy |
 | [0083-remove-duplicates-from-sorted-list](https://github.com/qingziyu/leetcode-training/tree/main/0083-remove-duplicates-from-sorted-list/) | Easy |
 | [0206-reverse-linked-list](https://github.com/qingziyu/leetcode-training/tree/main/0206-reverse-linked-list/) | Easy |
+| [0876-middle-of-the-linked-list](https://github.com/qingziyu/leetcode-training/tree/main/0876-middle-of-the-linked-list/) | Easy |
 ## Dynamic Programming
 | Problem Name | Difficulty |
 | ------- | ------- |
