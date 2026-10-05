@@ -1,0 +1,24 @@
+{
+  "submissionId": "752873931",
+  "status": "Compile Error",
+  "timestamp": "2026-10-05T04:29:48.000Z",
+  "language": "Java",
+  "runtime": "N/A",
+  "memory": "N/A",
+  "passedTestCases": 0,
+  "totalTestCases": 4,
+  "failedTestcase": "",
+  "input": "",
+  "expectedOutput": "",
+  "actualOutput": "{\"compile_error\": \"Line 16: error: bad operand types for binary operator '!='\"}",
+  "compileError": "Line 16: error: bad operand types for binary operator '!='\n        while(list1.val != null || list2.val != null) {\n                        ^\n  first type:  int\n  second type: <null>\nLine 16: error: bad operand types for binary operator '!='\n        while(list1.val != null || list2.val != null) {\n                                             ^\n  first type:  int\n  second type: <null>\n2 errors",
+  "runtimeError": "",
+  "timer": {
+    "source": "leetcode.cn-native-countdown",
+    "targetSeconds": 3600,
+    "remainingSeconds": 1276,
+    "elapsedSeconds": 2324,
+    "capturedAt": "2026-10-05T04:29:50.323Z"
+  },
+  "submissionUrl": "https://leetcode.cn/problems/merge-two-sorted-lists/submissions/752873931/"
+}
