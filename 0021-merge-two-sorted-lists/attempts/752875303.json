@@ -1,0 +1,24 @@
+{
+  "submissionId": "752875303",
+  "status": "Compile Error",
+  "timestamp": "2026-10-05T04:42:44.000Z",
+  "language": "Java",
+  "runtime": "N/A",
+  "memory": "N/A",
+  "passedTestCases": 0,
+  "totalTestCases": 4,
+  "failedTestcase": "",
+  "input": "",
+  "expectedOutput": "",
+  "actualOutput": "{\"compile_error\": \"Line 33: error: cannot find symbol\"}",
+  "compileError": "Line 33: error: cannot find symbol\n                nodeVal = curTwoNum;\n                ^\n  symbol:   variable nodeVal\n  location: class Solution\nLine 37: error: cannot find symbol\n                nodeVal = curOneNum;\n                ^\n  symbol:   variable nodeVal\n  location: class Solution\n2 errors",
+  "runtimeError": "",
+  "timer": {
+    "source": "leetcode.cn-native-countdown",
+    "targetSeconds": null,
+    "remainingSeconds": 826,
+    "elapsedSeconds": null,
+    "capturedAt": "2026-10-05T04:42:46.060Z"
+  },
+  "submissionUrl": "https://leetcode.cn/problems/merge-two-sorted-lists/submissions/752875303/"
+}
