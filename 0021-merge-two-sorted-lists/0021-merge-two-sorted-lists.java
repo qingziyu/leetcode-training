@@ -10,36 +10,48 @@
  */
 class Solution {
     public ListNode mergeTwoLists(ListNode list1, ListNode list2) {
-        ListNode resultList = new ListNode();
-        ListNode tail = resultList;
+        ListNode head = new ListNode();
+        ListNode result = head;
 
-        while (list1 != null || list2 != null) {
-            int val = 0;
+        while(list1 != null || list2 != null) {
+            int nodeVal;
 
-            if (list2 == null) {
-                ListNode nextNode = list1;
-                resultList.next = nextNode;
-                break;
-            } else if (list1 == null) {
-                ListNode nextNode = list2;
-                resultList.next = nextNode;
-                break;
-            } else {
-                int valOne = list1.val;
-                int valTwo = list2.val;
-
-                if (valOne < valTwo) {
-                    resultList.next = list1;
-                    list1 = list1.next; 
-                } else {
-                    resultList.next = list2;
-                    list2 = list2.next; 
-                }
+            if (list1 == null) {
+                nodeVal = list2.val;
+                head = createNewNode(head, nodeVal);
+                list2 = list2.next;
+                continue;
             }
 
-            resultList = resultList.next;
+            if (list2 == null) {
+                nodeVal = list1.val;
+                head = createNewNode(head, nodeVal);
+                list1 = list1.next;
+                continue;
+            }
+
+            int curOneNum = list1.val;
+            int curTwoNum = list2.val;
+            if (curOneNum > curTwoNum) {
+                nodeVal = curTwoNum;
+                list2 = list2.next;
+            } else {
+                nodeVal = curOneNum;
+                list1 = list1.next;
+            }
+
+            head = createNewNode(head, nodeVal);
         }
 
-        return tail.next;
+        return result.next;
+    }
+
+    private ListNode createNewNode(ListNode head, int nodeVal) {
+        ListNode newNode = new ListNode();
+        newNode.val = nodeVal;
+        head.next = newNode;
+        head = newNode;
+
+        return head;
     }
 }
