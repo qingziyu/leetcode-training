@@ -15,15 +15,20 @@ public class Solution {
             return false;
         }
 
-        Set<ListNode> seenNodes = new HashSet<>();
+        ListNode fast = head;
 
-        while (head != null) {
-            if (seenNodes.contains(head)) {
-                return true;
+        while (fast != null) {
+            if (fast.next != null) {
+                fast = fast.next.next;
+            } else {
+                return false;
             }
 
-            seenNodes.add(head);
             head = head.next;
+
+            if (fast == head) {
+                return true;
+            }
         }
 
         return false;
