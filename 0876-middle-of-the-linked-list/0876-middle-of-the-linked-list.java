@@ -11,8 +11,6 @@
 class Solution {
     public ListNode middleNode(ListNode head) {
         ListNode pointer = head;
-        int count = 0;
-        int mid = 0;
 
         while (head.next != null) {
             pointer = pointer.next;
