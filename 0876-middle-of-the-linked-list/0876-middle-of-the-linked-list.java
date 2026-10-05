@@ -13,19 +13,15 @@ class Solution {
         ListNode pointer = head;
         int count = 0;
         int mid = 0;
-        int result;
 
-        while (pointer != null) {
-            count++;
+        while (head.next != null) {
             pointer = pointer.next;
-        }
+            head = head.next;
+            if (head.next == null) {
+                break;
+            }
 
-        mid = count/2;
-        pointer = head;
-
-        while (mid > 0) {
-            mid--;
-            pointer = pointer.next;
+            head = head.next;
         }
 
         return pointer;
