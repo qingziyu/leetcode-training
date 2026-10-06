@@ -1,37 +1,36 @@
 class Solution {
     public int lengthOfLongestSubstring(String s) {
         int leftPointer = 0;
-        int rightPointer = 0;
-        Map<Character, Integer> charToIndexMap = new HashMap<>();
-        int result = 1;
+        int rightPointer = 1;
+        Map<Character, Integer> indexMap = new HashMap<>();
+        int longestResult = 1;
 
-        if(s.length() == 0) {
+        if (s.length() == 0) {
             return 0;
         }
 
-        while(leftPointer < s.length() - 1) {
-            char currentRight = s.charAt(rightPointer);
-            
-            if(charToIndexMap.containsKey(currentRight)) {
-                int index = charToIndexMap.get(currentRight);
-                if(index >= leftPointer) {
-                    leftPointer = index + 1;
-                }
+        while(rightPointer <= s.length() - 1) {
+            char leftChar = s.charAt(leftPointer);
+            char rightChar = s.charAt(rightPointer);
+
+            if (leftPointer == 0 && !indexMap.containsKey(leftChar)) {
+                indexMap.put(leftChar, leftPointer);
             }
 
-            charToIndexMap.put(currentRight, rightPointer);
-            int currentLength = rightPointer - leftPointer + 1;
-            if (currentLength > result) {
-                result = currentLength;
+            if (indexMap.containsKey(rightChar) && leftPointer <= indexMap.get(rightChar)) {
+                leftPointer = indexMap.get(rightChar) + 1;  
             }
 
-            if (rightPointer < s.length() - 1) {
-                rightPointer++;
-            } else {
-                leftPointer++;
+            indexMap.put(rightChar, rightPointer);
+
+            int tmpLength = rightPointer - leftPointer + 1;
+            if (tmpLength > longestResult) {
+                longestResult = tmpLength;
             }
+
+            rightPointer++;
         }
 
-        return result;
+        return longestResult;
     }
 }
