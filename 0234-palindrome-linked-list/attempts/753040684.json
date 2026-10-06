@@ -1,0 +1,24 @@
+{
+  "submissionId": "753040684",
+  "status": "Wrong Answer",
+  "timestamp": "2026-10-06T05:52:51.000Z",
+  "language": "Java",
+  "runtime": "N/A",
+  "memory": "N/A",
+  "passedTestCases": 31,
+  "totalTestCases": 93,
+  "failedTestcase": "[1,2]",
+  "input": "[1,2]",
+  "expectedOutput": "false",
+  "actualOutput": "true",
+  "compileError": "",
+  "runtimeError": "",
+  "timer": {
+    "source": "leetcode.cn-native-countdown",
+    "targetSeconds": 3600,
+    "remainingSeconds": 1239,
+    "elapsedSeconds": 2361,
+    "capturedAt": "2026-10-06T05:52:53.770Z"
+  },
+  "submissionUrl": "https://leetcode.cn/problems/palindrome-linked-list/submissions/753040684/"
+}
