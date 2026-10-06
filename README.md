@@ -9,6 +9,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0020-valid-parentheses](https://github.com/qingziyu/leetcode-training/tree/main/0020-valid-parentheses/) | Easy |
 | [0155-min-stack](https://github.com/qingziyu/leetcode-training/tree/main/0155-min-stack/) | Medium |
 | [0225-implement-stack-using-queues](https://github.com/qingziyu/leetcode-training/tree/main/0225-implement-stack-using-queues/) | Easy |
+| [0234-palindrome-linked-list](https://github.com/qingziyu/leetcode-training/tree/main/0234-palindrome-linked-list/) | Easy |
 | [0682-baseball-game](https://github.com/qingziyu/leetcode-training/tree/main/0682-baseball-game/) | undefined |
 | [0844-backspace-string-compare](https://github.com/qingziyu/leetcode-training/tree/main/0844-backspace-string-compare/) | Easy |
 | [1047-remove-all-adjacent-duplicates-in-string](https://github.com/qingziyu/leetcode-training/tree/main/1047-remove-all-adjacent-duplicates-in-string/) | Easy |
@@ -46,6 +47,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- | ------- |
 | [0080-remove-duplicates-from-sorted-array-ii](https://github.com/qingziyu/leetcode-training/tree/main/0080-remove-duplicates-from-sorted-array-ii/) | Medium |
 | [0141-linked-list-cycle](https://github.com/qingziyu/leetcode-training/tree/main/0141-linked-list-cycle/) | Easy |
+| [0234-palindrome-linked-list](https://github.com/qingziyu/leetcode-training/tree/main/0234-palindrome-linked-list/) | Easy |
 | [0350-intersection-of-two-arrays-ii](https://github.com/qingziyu/leetcode-training/tree/main/0350-intersection-of-two-arrays-ii/) | Easy |
 | [0844-backspace-string-compare](https://github.com/qingziyu/leetcode-training/tree/main/0844-backspace-string-compare/) | Easy |
 | [0876-middle-of-the-linked-list](https://github.com/qingziyu/leetcode-training/tree/main/0876-middle-of-the-linked-list/) | Easy |
@@ -122,6 +124,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- | ------- |
 | [0021-merge-two-sorted-lists](https://github.com/qingziyu/leetcode-training/tree/main/0021-merge-two-sorted-lists/) | Easy |
 | [0206-reverse-linked-list](https://github.com/qingziyu/leetcode-training/tree/main/0206-reverse-linked-list/) | Easy |
+| [0234-palindrome-linked-list](https://github.com/qingziyu/leetcode-training/tree/main/0234-palindrome-linked-list/) | Easy |
 ## Linked List
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -129,6 +132,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0083-remove-duplicates-from-sorted-list](https://github.com/qingziyu/leetcode-training/tree/main/0083-remove-duplicates-from-sorted-list/) | Easy |
 | [0141-linked-list-cycle](https://github.com/qingziyu/leetcode-training/tree/main/0141-linked-list-cycle/) | Easy |
 | [0206-reverse-linked-list](https://github.com/qingziyu/leetcode-training/tree/main/0206-reverse-linked-list/) | Easy |
+| [0234-palindrome-linked-list](https://github.com/qingziyu/leetcode-training/tree/main/0234-palindrome-linked-list/) | Easy |
 | [0876-middle-of-the-linked-list](https://github.com/qingziyu/leetcode-training/tree/main/0876-middle-of-the-linked-list/) | Easy |
 ## Dynamic Programming
 | Problem Name | Difficulty |
