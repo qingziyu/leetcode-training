@@ -1,0 +1,24 @@
+{
+  "submissionId": "753210778",
+  "status": "Accepted",
+  "timestamp": "2026-10-07T06:39:44.000Z",
+  "language": "Java",
+  "runtime": "18 ms",
+  "memory": "46.1 MB",
+  "passedTestCases": 106,
+  "totalTestCases": 106,
+  "failedTestcase": "",
+  "input": "",
+  "expectedOutput": "",
+  "actualOutput": "",
+  "compileError": "",
+  "runtimeError": "",
+  "timer": {
+    "source": "leetcode.cn-native-countdown",
+    "targetSeconds": 3600,
+    "remainingSeconds": 2967,
+    "elapsedSeconds": 633,
+    "capturedAt": "2026-10-07T06:39:49.318Z"
+  },
+  "submissionUrl": "https://leetcode.cn/problems/remove-all-adjacent-duplicates-in-string/submissions/753210778/"
+}
