@@ -1,0 +1,24 @@
+{
+  "submissionId": "753216437",
+  "status": "Runtime Error",
+  "timestamp": "2026-10-07T07:07:31.000Z",
+  "language": "Java",
+  "runtime": "N/A",
+  "memory": "N/A",
+  "passedTestCases": 1,
+  "totalTestCases": 168,
+  "failedTestcase": "[1,1,2,3,3]",
+  "input": "[1,1,2,3,3]",
+  "expectedOutput": "[1,2,3]",
+  "actualOutput": "",
+  "compileError": "",
+  "runtimeError": "java.lang.NullPointerException: Cannot read field \"val\" because \"<local3>\" is null\n  at line 22, Solution.deleteDuplicates\n  at line 56, __DriverSolution__.__helper__\n  at line 86, __Driver__.main",
+  "timer": {
+    "source": "leetcode.cn-native-countdown",
+    "targetSeconds": 3600,
+    "remainingSeconds": 2536,
+    "elapsedSeconds": 1064,
+    "capturedAt": "2026-10-07T07:07:36.519Z"
+  },
+  "submissionUrl": "https://leetcode.cn/problems/remove-duplicates-from-sorted-list/submissions/753216437/"
+}
