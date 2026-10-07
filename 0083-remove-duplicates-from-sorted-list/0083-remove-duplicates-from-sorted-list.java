@@ -10,20 +10,29 @@
  */
 class Solution {
     public ListNode deleteDuplicates(ListNode head) {
-        ListNode tail = head;
+        if (head == null || head.next == null) {
+            return head;
+        }
+        
+        ListNode previousPointer = head;
+        ListNode currentPointer = head.next;
 
-        while(head != null) {
-            if (head.next == null) {
-                break;
-            }
+        while (currentPointer != null) {
+            int previouNum = previousPointer.val;
+            int currentNum = currentPointer.val;
 
-            if (head.next.val == head.val) {
-                head.next = head.next.next;
+            if (previouNum == currentNum) {
+                currentPointer = currentPointer.next;
+                if (currentPointer == null) {
+                    previousPointer.next = null;
+                }
             } else {
-                head = head.next;
+                previousPointer.next = currentPointer;
+                previousPointer = previousPointer.next;
+                currentPointer = currentPointer.next;
             }
         }
 
-        return tail;
+        return head;
     }
 }
