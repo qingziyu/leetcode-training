@@ -1,0 +1,24 @@
+{
+  "submissionId": "753221505",
+  "status": "Wrong Answer",
+  "timestamp": "2026-10-07T07:29:13.000Z",
+  "language": "Java",
+  "runtime": "N/A",
+  "memory": "N/A",
+  "passedTestCases": 1,
+  "totalTestCases": 168,
+  "failedTestcase": "[1,1,2,3,3]",
+  "input": "[1,1,2,3,3]",
+  "expectedOutput": "[1,2,3]",
+  "actualOutput": "[1,2,3,3]",
+  "compileError": "",
+  "runtimeError": "",
+  "timer": {
+    "source": "leetcode.cn-native-countdown",
+    "targetSeconds": 3600,
+    "remainingSeconds": 1234,
+    "elapsedSeconds": 2366,
+    "capturedAt": "2026-10-07T07:29:18.692Z"
+  },
+  "submissionUrl": "https://leetcode.cn/problems/remove-duplicates-from-sorted-list/submissions/753221505/"
+}
