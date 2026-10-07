@@ -3,23 +3,23 @@ class Solution {
         Deque<Character> stack = new ArrayDeque<>();
 
         for (int i = 0; i < s.length(); i++) {
-            char currentChar = s.charAt(i);
+            char curChar = s.charAt(i);
 
             if (stack.isEmpty()) {
-                stack.push(currentChar);
+                stack.push(curChar);
                 continue;
             }
 
-            if (stack.peek() == currentChar) {
+            if (stack.peek() == curChar) {
                 stack.pop();
             } else {
-                stack.push(currentChar);
+                stack.push(curChar);
             }
         }
 
         StringBuilder sb = new StringBuilder();
 
-        for(char c : stack) {
+        for (char c : stack) {
             sb.append(c);
         }
 
