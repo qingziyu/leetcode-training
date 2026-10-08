@@ -1,0 +1,24 @@
+{
+  "submissionId": "753393208",
+  "status": "Wrong Answer",
+  "timestamp": "2026-10-08T06:32:03.000Z",
+  "language": "Java",
+  "runtime": "N/A",
+  "memory": "N/A",
+  "passedTestCases": 2,
+  "totalTestCases": 66,
+  "failedTestcase": "[1,2,6,3,4,5,6]\n6",
+  "input": "[1,2,6,3,4,5,6]\n6",
+  "expectedOutput": "[1,2,3,4,5]",
+  "actualOutput": "[1,6,6]",
+  "compileError": "",
+  "runtimeError": "",
+  "timer": {
+    "source": "leetcode.cn-native-countdown",
+    "targetSeconds": 3600,
+    "remainingSeconds": 2798,
+    "elapsedSeconds": 802,
+    "capturedAt": "2026-10-08T06:32:09.391Z"
+  },
+  "submissionUrl": "https://leetcode.cn/problems/remove-linked-list-elements/submissions/753393208/"
+}
