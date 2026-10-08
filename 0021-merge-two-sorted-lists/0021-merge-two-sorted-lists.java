@@ -14,35 +14,29 @@ class Solution {
         ListNode result = head;
 
         while(list1 != null || list2 != null) {
-
             if (list1 == null) {
-                head = createNewNode(head, list2);
+                head.next = list2;
                 break;
-            }
+            } 
 
             if (list2 == null) {
-                head = createNewNode(head, list1);
+                head.next = list1;
                 break;
             }
 
-            int curOneNum = list1.val;
-            int curTwoNum = list2.val;
-            if (curOneNum > curTwoNum) {
-                head = createNewNode(head, list2);
+            if (list1.val > list2.val) {
+                ListNode newNode = new ListNode(list2.val);
+                head.next = newNode;
                 list2 = list2.next;
             } else {
-                head = createNewNode(head, list1);
+                ListNode newNode = new ListNode(list1.val);
+                head.next = newNode;
                 list1 = list1.next;
-            }            
+            }
+
+            head = head.next;
         }
 
         return result.next;
-    }
-
-    private ListNode createNewNode(ListNode head, ListNode nextNode) {
-        head.next = nextNode;
-        head = nextNode;
-
-        return head;
     }
 }
