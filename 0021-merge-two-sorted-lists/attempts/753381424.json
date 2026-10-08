@@ -1,0 +1,24 @@
+{
+  "submissionId": "753381424",
+  "status": "Accepted",
+  "timestamp": "2026-10-08T05:29:08.000Z",
+  "language": "Java",
+  "runtime": "1 ms",
+  "memory": "43.7 MB",
+  "passedTestCases": 208,
+  "totalTestCases": 208,
+  "failedTestcase": "",
+  "input": "",
+  "expectedOutput": "",
+  "actualOutput": "",
+  "compileError": "",
+  "runtimeError": "",
+  "timer": {
+    "source": "leetcode.cn-native-countdown",
+    "targetSeconds": 3600,
+    "remainingSeconds": 2386,
+    "elapsedSeconds": 1214,
+    "capturedAt": "2026-10-08T05:29:15.044Z"
+  },
+  "submissionUrl": "https://leetcode.cn/problems/merge-two-sorted-lists/submissions/753381424/"
+}
