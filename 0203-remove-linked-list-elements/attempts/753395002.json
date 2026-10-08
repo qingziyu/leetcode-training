@@ -1,0 +1,24 @@
+{
+  "submissionId": "753395002",
+  "status": "Runtime Error",
+  "timestamp": "2026-10-08T06:38:46.000Z",
+  "language": "Java",
+  "runtime": "N/A",
+  "memory": "N/A",
+  "passedTestCases": 2,
+  "totalTestCases": 66,
+  "failedTestcase": "[7,7,7,7]\n7",
+  "input": "[7,7,7,7]\n7",
+  "expectedOutput": "[]",
+  "actualOutput": "",
+  "compileError": "",
+  "runtimeError": "java.lang.NullPointerException: Cannot assign field \"next\" because \"<local3>\" is null\n  at line 19, Solution.removeElements\n  at line 56, __DriverSolution__.__helper__\n  at line 89, __Driver__.main",
+  "timer": {
+    "source": "leetcode.cn-native-countdown",
+    "targetSeconds": 3600,
+    "remainingSeconds": 2395,
+    "elapsedSeconds": 1205,
+    "capturedAt": "2026-10-08T06:38:52.905Z"
+  },
+  "submissionUrl": "https://leetcode.cn/problems/remove-linked-list-elements/submissions/753395002/"
+}
