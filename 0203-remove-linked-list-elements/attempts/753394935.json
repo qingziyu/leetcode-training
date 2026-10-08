@@ -1,0 +1,24 @@
+{
+  "submissionId": "753394935",
+  "status": "Compile Error",
+  "timestamp": "2026-10-08T06:38:30.000Z",
+  "language": "Java",
+  "runtime": "N/A",
+  "memory": "N/A",
+  "passedTestCases": 0,
+  "totalTestCases": 4,
+  "failedTestcase": "",
+  "input": "",
+  "expectedOutput": "",
+  "actualOutput": "{\"compile_error\": \"Line 19: error: cannot find symbol\"}",
+  "compileError": "Line 19: error: cannot find symbol\n                nodePointer.next = head;\n                ^\n  symbol:   variable nodePointer\n  location: class Solution",
+  "runtimeError": "",
+  "timer": {
+    "source": "leetcode.cn-native-countdown",
+    "targetSeconds": 3600,
+    "remainingSeconds": 2411,
+    "elapsedSeconds": 1189,
+    "capturedAt": "2026-10-08T06:38:36.827Z"
+  },
+  "submissionUrl": "https://leetcode.cn/problems/remove-linked-list-elements/submissions/753394935/"
+}
