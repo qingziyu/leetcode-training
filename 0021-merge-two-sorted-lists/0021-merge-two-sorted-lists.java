@@ -25,12 +25,10 @@ class Solution {
             }
 
             if (list1.val > list2.val) {
-                ListNode newNode = new ListNode(list2.val);
-                head.next = newNode;
+                head.next = list2;
                 list2 = list2.next;
             } else {
-                ListNode newNode = new ListNode(list1.val);
-                head.next = newNode;
+                head.next = list1;
                 list1 = list1.next;
             }
 
