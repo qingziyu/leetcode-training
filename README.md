@@ -17,6 +17,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0001-two-sum](https://github.com/qingziyu/leetcode-training/tree/main/0001-two-sum/) | Easy |
+| [0027-remove-element](https://github.com/qingziyu/leetcode-training/tree/main/0027-remove-element/) | Easy |
 | [0035-search-insert-position](https://github.com/qingziyu/leetcode-training/tree/main/0035-search-insert-position/) | Easy |
 | [0080-remove-duplicates-from-sorted-array-ii](https://github.com/qingziyu/leetcode-training/tree/main/0080-remove-duplicates-from-sorted-array-ii/) | Medium |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/qingziyu/leetcode-training/tree/main/0121-best-time-to-buy-and-sell-stock/) | Easy |
@@ -45,6 +46,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Two Pointers
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0027-remove-element](https://github.com/qingziyu/leetcode-training/tree/main/0027-remove-element/) | Easy |
 | [0080-remove-duplicates-from-sorted-array-ii](https://github.com/qingziyu/leetcode-training/tree/main/0080-remove-duplicates-from-sorted-array-ii/) | Medium |
 | [0141-linked-list-cycle](https://github.com/qingziyu/leetcode-training/tree/main/0141-linked-list-cycle/) | Easy |
 | [0234-palindrome-linked-list](https://github.com/qingziyu/leetcode-training/tree/main/0234-palindrome-linked-list/) | Easy |
