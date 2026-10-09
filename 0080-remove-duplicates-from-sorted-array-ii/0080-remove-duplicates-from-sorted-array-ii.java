@@ -3,20 +3,27 @@ class Solution {
         int writePointer = 1;
         int count = 1;
 
-        for (int i = 1; i < nums.length; i++) {
-            int currentNum = nums[i];
-            int previousNum = nums[i - 1];
+        if (nums.length == 0 || nums.length == 1) {
+            return nums.length;
+        }
 
-            if (currentNum == previousNum) {
-                count++;
-                nums[writePointer] = nums[i];
-                if (count <= 2) {
+        for (int i = 1; i < nums.length; i++) {
+            int preNum = nums[i - 1];
+            int curNum = nums[i];
+
+            if (preNum == curNum) {
+                if (count < 2) {
+                    nums[writePointer] = curNum;
                     writePointer++;
                 }
-            } else {
-                nums[writePointer] = nums[i];
-                count = 1;
+
+                count++;
+            }
+
+            if (preNum != curNum) {
+                nums[writePointer] = curNum;
                 writePointer++;
+                count = 1;
             }
         }
 
