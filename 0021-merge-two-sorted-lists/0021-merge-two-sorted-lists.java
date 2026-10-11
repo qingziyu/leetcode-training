@@ -13,11 +13,7 @@ class Solution {
         ListNode tail = new ListNode();
         ListNode dummy = tail;
 
-        if (list1 == null && list2 == null) {
-            return null;
-        }
-
-        while(list1 != null || list2 != null) {
+        while (list1 != null || list2 != null) {
             if (list1 == null) {
                 tail.next = list2;
                 break;
