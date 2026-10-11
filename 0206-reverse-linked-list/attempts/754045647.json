@@ -1,0 +1,24 @@
+{
+  "submissionId": "754045647",
+  "status": "Runtime Error",
+  "timestamp": "2026-10-11T06:26:19.000Z",
+  "language": "Java",
+  "runtime": "N/A",
+  "memory": "N/A",
+  "passedTestCases": 0,
+  "totalTestCases": 28,
+  "failedTestcase": "[1,2,3,4,5]",
+  "input": "[1,2,3,4,5]",
+  "expectedOutput": "[5,4,3,2,1]",
+  "actualOutput": "",
+  "compileError": "",
+  "runtimeError": "java.lang.NullPointerException: Cannot assign field \"next\" because \"<local4>\" is null\n  at line 27, Solution.reverseList\n  at line 56, __DriverSolution__.__helper__\n  at line 86, __Driver__.main",
+  "timer": {
+    "source": "leetcode.cn-native-countdown",
+    "targetSeconds": 3600,
+    "remainingSeconds": 1997,
+    "elapsedSeconds": 1603,
+    "capturedAt": "2026-10-11T06:26:20.206Z"
+  },
+  "submissionUrl": "https://leetcode.cn/problems/reverse-linked-list/submissions/754045647/"
+}
