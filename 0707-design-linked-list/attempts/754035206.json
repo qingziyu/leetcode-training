@@ -1,0 +1,24 @@
+{
+  "submissionId": "754035206",
+  "status": "Runtime Error",
+  "timestamp": "2026-10-11T05:29:35.000Z",
+  "language": "Java",
+  "runtime": "N/A",
+  "memory": "N/A",
+  "passedTestCases": 5,
+  "totalTestCases": 52,
+  "failedTestcase": "[\"MyLinkedList\",\"addAtHead\",\"addAtTail\",\"deleteAtIndex\",\"addAtTail\",\"get\",\"get\",\"get\",\"addAtTail\",\"addAtTail\",\"get\",\"addAtHead\"]\n[[],[7],[0],[0],[3],[0],[0],[0],[2],[3],[0],[1]]",
+  "input": "[\"MyLinkedList\",\"addAtHead\",\"addAtTail\",\"deleteAtIndex\",\"addAtTail\",\"get\",\"get\",\"get\",\"addAtTail\",\"addAtTail\",\"get\",\"addAtHead\"]\n[[],[7],[0],[0],[3],[0],[0],[0],[2],[3],[0],[1]]",
+  "expectedOutput": "[null,null,null,null,null,0,0,0,null,null,0,null]",
+  "actualOutput": "",
+  "compileError": "",
+  "runtimeError": "java.lang.NullPointerException: Cannot read field \"val\" because \"<local2>\" is null\n  at line 34, MyLinkedList.get\n  at line 65, __Driver__.__helperSelectMethod__\n  at line 101, __Driver__.__helper__\n  at line 122, __Driver__.main",
+  "timer": {
+    "source": "leetcode.cn-native-countdown",
+    "targetSeconds": 3600,
+    "remainingSeconds": 1820,
+    "elapsedSeconds": 1780,
+    "capturedAt": "2026-10-11T05:29:36.189Z"
+  },
+  "submissionUrl": "https://leetcode.cn/problems/design-linked-list/submissions/754035206/"
+}
