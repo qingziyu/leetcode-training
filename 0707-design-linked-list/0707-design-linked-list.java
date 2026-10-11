@@ -80,6 +80,7 @@ class MyLinkedList {
         newNode.next = nextNode;
         this.size++;
 
+
         if (index + 1 == this.size) {
             this.tail = newNode;
         }
