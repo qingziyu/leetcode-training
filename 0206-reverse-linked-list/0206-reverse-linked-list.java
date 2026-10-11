@@ -14,16 +14,16 @@ class Solution {
             return head;
         }
 
-        ListNode prePointer = null;
-        ListNode curPointer = head;
+        ListNode preNode = null;
+        ListNode curNode = head;
 
-        while(curPointer != null) {
-            ListNode nextNode = curPointer.next;
-            curPointer.next = prePointer;
-            prePointer = curPointer;
-            curPointer = nextNode;
+        while (curNode != null) {
+            ListNode nextNode = curNode.next;
+            curNode.next = preNode;
+            preNode = curNode;
+            curNode = nextNode;  
         }
 
-        return prePointer;
+        return preNode;
     }
 }
