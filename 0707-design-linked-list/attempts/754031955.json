@@ -1,0 +1,24 @@
+{
+  "submissionId": "754031955",
+  "status": "Wrong Answer",
+  "timestamp": "2026-10-11T05:05:08.000Z",
+  "language": "Java",
+  "runtime": "N/A",
+  "memory": "N/A",
+  "passedTestCases": 4,
+  "totalTestCases": 52,
+  "failedTestcase": "[\"MyLinkedList\",\"addAtHead\",\"deleteAtIndex\",\"addAtTail\",\"get\"]\n[[],[1],[0],[2],[0]]",
+  "input": "[\"MyLinkedList\",\"addAtHead\",\"deleteAtIndex\",\"addAtTail\",\"get\"]\n[[],[1],[0],[2],[0]]",
+  "expectedOutput": "[null,null,null,null,2]",
+  "actualOutput": "[null,null,null,null,1]",
+  "compileError": "",
+  "runtimeError": "",
+  "timer": {
+    "source": "leetcode.cn-native-countdown",
+    "targetSeconds": 3600,
+    "remainingSeconds": 3288,
+    "elapsedSeconds": 312,
+    "capturedAt": "2026-10-11T05:05:08.890Z"
+  },
+  "submissionUrl": "https://leetcode.cn/problems/design-linked-list/submissions/754031955/"
+}
