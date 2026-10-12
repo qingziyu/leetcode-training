@@ -6,9 +6,9 @@ class MyCircularQueue {
 
     public MyCircularQueue(int k) {
         this.data = new int[k];
-        this.head = 0;
-        this.tail = 0;
-        this.size = 0;
+        this.head = 0; // 队首的pointer
+        this.tail = 0; // 队尾的pointer，下一次插入该写入的地方
+        this.size = 0; // 已经插入数据的数量
     }
     
     public boolean enQueue(int value) {
@@ -50,19 +50,11 @@ class MyCircularQueue {
     }
     
     public boolean isEmpty() {
-        if (size == 0) {
-            return true;
-        }
-
-        return false;
+        return size == 0;
     }
     
     public boolean isFull() {
-        if (size == this.data.length) {
-            return true;
-        }
-
-        return false;
+        return size == data.length;
     }
 }
 
