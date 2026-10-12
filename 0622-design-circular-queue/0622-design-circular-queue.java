@@ -1,14 +1,14 @@
 class MyCircularQueue {
-    int[] data;
-    int head;
-    int tail;
-    int size;
+    private int[] data;
+    private int head; // 队首的pointer
+    private int tail; // 队尾的pointer，下一次插入该写入的地方
+    private int size; // 当前有效元素数量
 
     public MyCircularQueue(int k) {
         this.data = new int[k];
-        this.head = 0; // 队首的pointer
-        this.tail = 0; // 队尾的pointer，下一次插入该写入的地方
-        this.size = 0; // 已经插入数据的数量
+        this.head = 0;
+        this.tail = 0;
+        this.size = 0;
     }
     
     public boolean enQueue(int value) {
