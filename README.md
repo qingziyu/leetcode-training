@@ -24,6 +24,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0209-minimum-size-subarray-sum](https://github.com/qingziyu/leetcode-training/tree/main/0209-minimum-size-subarray-sum/) | Medium |
 | [0219-contains-duplicate-ii](https://github.com/qingziyu/leetcode-training/tree/main/0219-contains-duplicate-ii/) | Easy |
 | [0350-intersection-of-two-arrays-ii](https://github.com/qingziyu/leetcode-training/tree/main/0350-intersection-of-two-arrays-ii/) | Easy |
+| [0622-design-circular-queue](https://github.com/qingziyu/leetcode-training/tree/main/0622-design-circular-queue/) | Medium |
 | [0643-maximum-average-subarray-i](https://github.com/qingziyu/leetcode-training/tree/main/0643-maximum-average-subarray-i/) | Easy |
 | [0682-baseball-game](https://github.com/qingziyu/leetcode-training/tree/main/0682-baseball-game/) | undefined |
 | [0704-binary-search](https://github.com/qingziyu/leetcode-training/tree/main/0704-binary-search/) | Easy |
@@ -71,12 +72,14 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- | ------- |
 | [0155-min-stack](https://github.com/qingziyu/leetcode-training/tree/main/0155-min-stack/) | Medium |
 | [0225-implement-stack-using-queues](https://github.com/qingziyu/leetcode-training/tree/main/0225-implement-stack-using-queues/) | Easy |
+| [0622-design-circular-queue](https://github.com/qingziyu/leetcode-training/tree/main/0622-design-circular-queue/) | Medium |
 | [0707-design-linked-list](https://github.com/qingziyu/leetcode-training/tree/main/0707-design-linked-list/) | Medium |
 ## Queue
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0225-implement-stack-using-queues](https://github.com/qingziyu/leetcode-training/tree/main/0225-implement-stack-using-queues/) | Easy |
 | [0387-first-unique-character-in-a-string](https://github.com/qingziyu/leetcode-training/tree/main/0387-first-unique-character-in-a-string/) | Easy |
+| [0622-design-circular-queue](https://github.com/qingziyu/leetcode-training/tree/main/0622-design-circular-queue/) | Medium |
 ## Binary Search
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -138,6 +141,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0203-remove-linked-list-elements](https://github.com/qingziyu/leetcode-training/tree/main/0203-remove-linked-list-elements/) | Easy |
 | [0206-reverse-linked-list](https://github.com/qingziyu/leetcode-training/tree/main/0206-reverse-linked-list/) | Easy |
 | [0234-palindrome-linked-list](https://github.com/qingziyu/leetcode-training/tree/main/0234-palindrome-linked-list/) | Easy |
+| [0622-design-circular-queue](https://github.com/qingziyu/leetcode-training/tree/main/0622-design-circular-queue/) | Medium |
 | [0707-design-linked-list](https://github.com/qingziyu/leetcode-training/tree/main/0707-design-linked-list/) | Medium |
 | [0876-middle-of-the-linked-list](https://github.com/qingziyu/leetcode-training/tree/main/0876-middle-of-the-linked-list/) | Easy |
 ## Dynamic Programming
