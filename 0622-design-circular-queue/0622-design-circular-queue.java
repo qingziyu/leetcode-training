@@ -17,7 +17,7 @@ class MyCircularQueue {
         }
 
         this.data[tail] = value;
-        this.tail = (this.tail + 1)%data.length;
+        this.tail = (this.tail + 1) % data.length;
         this.size++;
 
         return true;
@@ -28,7 +28,7 @@ class MyCircularQueue {
             return false;
         }
 
-        this.head = (this.head + 1)%data.length;
+        this.head = (this.head + 1) % data.length;
         this.size--;
         return true;
     }
@@ -46,7 +46,7 @@ class MyCircularQueue {
             return -1;
         }
 
-        return this.data[(tail - 1 + data.length)%data.length];
+        return this.data[(tail - 1 + data.length) % data.length];
     }
     
     public boolean isEmpty() {
