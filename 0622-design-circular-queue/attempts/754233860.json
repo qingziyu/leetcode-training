@@ -1,0 +1,24 @@
+{
+  "submissionId": "754233860",
+  "status": "Wrong Answer",
+  "timestamp": "2026-10-12T04:24:38.000Z",
+  "language": "Java",
+  "runtime": "N/A",
+  "memory": "N/A",
+  "passedTestCases": 20,
+  "totalTestCases": 59,
+  "failedTestcase": "[\"MyCircularQueue\",\"enQueue\",\"Rear\",\"Front\",\"deQueue\",\"Front\",\"deQueue\",\"Front\",\"enQueue\",\"enQueue\",\"enQueue\",\"enQueue\"]\n[[3],[2],[],[],[],[],[],[],[4],[2],[2],[3]]",
+  "input": "[\"MyCircularQueue\",\"enQueue\",\"Rear\",\"Front\",\"deQueue\",\"Front\",\"deQueue\",\"Front\",\"enQueue\",\"enQueue\",\"enQueue\",\"enQueue\"]\n[[3],[2],[],[],[],[],[],[],[4],[2],[2],[3]]",
+  "expectedOutput": "[null,true,2,2,true,-1,false,-1,true,true,true,false]",
+  "actualOutput": "[null,true,2,0,true,-1,false,-1,true,true,true,false]",
+  "compileError": "",
+  "runtimeError": "",
+  "timer": {
+    "source": "leetcode.cn-native-countdown",
+    "targetSeconds": 3600,
+    "remainingSeconds": 1415,
+    "elapsedSeconds": 2185,
+    "capturedAt": "2026-10-12T04:24:40.919Z"
+  },
+  "submissionUrl": "https://leetcode.cn/problems/design-circular-queue/submissions/754233860/"
+}
