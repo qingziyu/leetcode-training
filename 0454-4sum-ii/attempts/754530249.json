@@ -1,0 +1,24 @@
+{
+  "submissionId": "754530249",
+  "status": "Compile Error",
+  "timestamp": "2026-10-13T07:43:26.000Z",
+  "language": "Java",
+  "runtime": "N/A",
+  "memory": "N/A",
+  "passedTestCases": 0,
+  "totalTestCases": 4,
+  "failedTestcase": "",
+  "input": "",
+  "expectedOutput": "",
+  "actualOutput": "{\"compile_error\": \"Line 28: error: bad operand types for binary operator '+'\"}",
+  "compileError": "Line 28: error: bad operand types for binary operator '+'\n                resultFrequencyMap.put(sum, resultFrequencyMap.getOrDefault(sum, 0) + 1);\n                                                                                    ^\n  first type:  Object\n  second type: int",
+  "runtimeError": "",
+  "timer": {
+    "source": "leetcode.cn-native-countdown",
+    "targetSeconds": 3600,
+    "remainingSeconds": 1340,
+    "elapsedSeconds": 2260,
+    "capturedAt": "2026-10-13T07:43:27.021Z"
+  },
+  "submissionUrl": "https://leetcode.cn/problems/4sum-ii/submissions/754530249/"
+}
