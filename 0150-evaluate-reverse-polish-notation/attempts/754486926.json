@@ -1,0 +1,24 @@
+{
+  "submissionId": "754486926",
+  "status": "Accepted",
+  "timestamp": "2026-10-13T04:49:19.000Z",
+  "language": "Java",
+  "runtime": "6 ms",
+  "memory": "44.5 MB",
+  "passedTestCases": 23,
+  "totalTestCases": 23,
+  "failedTestcase": "",
+  "input": "",
+  "expectedOutput": "",
+  "actualOutput": "",
+  "compileError": "",
+  "runtimeError": "",
+  "timer": {
+    "source": "leetcode.cn-native-countdown",
+    "targetSeconds": 3600,
+    "remainingSeconds": 2496,
+    "elapsedSeconds": 1104,
+    "capturedAt": "2026-10-13T04:49:20.151Z"
+  },
+  "submissionUrl": "https://leetcode.cn/problems/evaluate-reverse-polish-notation/submissions/754486926/"
+}
