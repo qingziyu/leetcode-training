@@ -9,9 +9,9 @@ class Solution {
         int result = 0;
 
         for (Map.Entry<Integer, Integer> entry : resultFrequencyMapOne.entrySet()) {
-            int currentSSum = entry.getKey();
+            int currentSum = entry.getKey();
             int times = entry.getValue();
-            int neededSum = 0 - currentSSum;
+            int neededSum = 0 - currentSum;
 
             if (resultFrequencyMapTwo.containsKey(neededSum)) {
                 result += times * resultFrequencyMapTwo.get(neededSum);
