@@ -7,6 +7,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0020-valid-parentheses](https://github.com/qingziyu/leetcode-training/tree/main/0020-valid-parentheses/) | Easy |
+| [0150-evaluate-reverse-polish-notation](https://github.com/qingziyu/leetcode-training/tree/main/0150-evaluate-reverse-polish-notation/) | Medium |
 | [0155-min-stack](https://github.com/qingziyu/leetcode-training/tree/main/0155-min-stack/) | Medium |
 | [0225-implement-stack-using-queues](https://github.com/qingziyu/leetcode-training/tree/main/0225-implement-stack-using-queues/) | Easy |
 | [0234-palindrome-linked-list](https://github.com/qingziyu/leetcode-training/tree/main/0234-palindrome-linked-list/) | Easy |
@@ -21,6 +22,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0035-search-insert-position](https://github.com/qingziyu/leetcode-training/tree/main/0035-search-insert-position/) | Easy |
 | [0080-remove-duplicates-from-sorted-array-ii](https://github.com/qingziyu/leetcode-training/tree/main/0080-remove-duplicates-from-sorted-array-ii/) | Medium |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/qingziyu/leetcode-training/tree/main/0121-best-time-to-buy-and-sell-stock/) | Easy |
+| [0150-evaluate-reverse-polish-notation](https://github.com/qingziyu/leetcode-training/tree/main/0150-evaluate-reverse-polish-notation/) | Medium |
 | [0209-minimum-size-subarray-sum](https://github.com/qingziyu/leetcode-training/tree/main/0209-minimum-size-subarray-sum/) | Medium |
 | [0219-contains-duplicate-ii](https://github.com/qingziyu/leetcode-training/tree/main/0219-contains-duplicate-ii/) | Easy |
 | [0350-intersection-of-two-arrays-ii](https://github.com/qingziyu/leetcode-training/tree/main/0350-intersection-of-two-arrays-ii/) | Easy |
@@ -100,6 +102,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0069-sqrtx](https://github.com/qingziyu/leetcode-training/tree/main/0069-sqrtx/) | Easy |
+| [0150-evaluate-reverse-polish-notation](https://github.com/qingziyu/leetcode-training/tree/main/0150-evaluate-reverse-polish-notation/) | Medium |
 | [0367-valid-perfect-square](https://github.com/qingziyu/leetcode-training/tree/main/0367-valid-perfect-square/) | Easy |
 ## 牛顿迭代法
 | Problem Name | Difficulty |
