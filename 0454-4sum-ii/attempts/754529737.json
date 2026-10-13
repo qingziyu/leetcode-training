@@ -1,0 +1,24 @@
+{
+  "submissionId": "754529737",
+  "status": "Compile Error",
+  "timestamp": "2026-10-13T07:42:02.000Z",
+  "language": "Java",
+  "runtime": "N/A",
+  "memory": "N/A",
+  "passedTestCases": 0,
+  "totalTestCases": 4,
+  "failedTestcase": "",
+  "input": "",
+  "expectedOutput": "",
+  "actualOutput": "{\"compile_error\": \"Line 6: error: incompatible types: Map<Integer,Integer> cannot be converted to HashMap\"}",
+  "compileError": "Line 6: error: incompatible types: Map<Integer,Integer> cannot be converted to HashMap\n        resultFrequencyMapOne = getResultFrequency(nums1, nums2, resultFrequencyMapOne);\n                                                                 ^\nLine 7: error: cannot find symbol\n        resultFrequencyMapTwo = getResultFrequency(nums3, nums4. resultFrequencyMapTwo);\n                                                               ^\n  symbol:   variable resultFrequencyMapTwo\n  location: variable nums4 of type int[]\nLine 28: error: bad operand types for binary operator '+'\n                resultFrequencyMap.put(sum, resultFrequencyMap.getOrDefault(sum, 0) + 1);\n                                                                                    ^\n  first type:  Object\n  second type: int\n3 errors",
+  "runtimeError": "",
+  "timer": {
+    "source": "leetcode.cn-native-countdown",
+    "targetSeconds": 3600,
+    "remainingSeconds": 1424,
+    "elapsedSeconds": 2176,
+    "capturedAt": "2026-10-13T07:42:02.974Z"
+  },
+  "submissionUrl": "https://leetcode.cn/problems/4sum-ii/submissions/754529737/"
+}
