@@ -1,0 +1,24 @@
+{
+  "submissionId": "754755712",
+  "status": "Accepted",
+  "timestamp": "2026-10-14T07:02:49.000Z",
+  "language": "Java",
+  "runtime": "2 ms",
+  "memory": "42.5 MB",
+  "passedTestCases": 255,
+  "totalTestCases": 255,
+  "failedTestcase": "",
+  "input": "",
+  "expectedOutput": "",
+  "actualOutput": "",
+  "compileError": "",
+  "runtimeError": "",
+  "timer": {
+    "source": "leetcode.cn-native-countdown",
+    "targetSeconds": 3600,
+    "remainingSeconds": 3358,
+    "elapsedSeconds": 242,
+    "capturedAt": "2026-10-14T07:02:51.011Z"
+  },
+  "submissionUrl": "https://leetcode.cn/problems/jewels-and-stones/submissions/754755712/"
+}
