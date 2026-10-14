@@ -48,6 +48,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0350-intersection-of-two-arrays-ii](https://github.com/qingziyu/leetcode-training/tree/main/0350-intersection-of-two-arrays-ii/) | Easy |
 | [0387-first-unique-character-in-a-string](https://github.com/qingziyu/leetcode-training/tree/main/0387-first-unique-character-in-a-string/) | Easy |
 | [0454-4sum-ii](https://github.com/qingziyu/leetcode-training/tree/main/0454-4sum-ii/) | Medium |
+| [0771-jewels-and-stones](https://github.com/qingziyu/leetcode-training/tree/main/0771-jewels-and-stones/) | Easy |
 ## Two Pointers
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -65,6 +66,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0020-valid-parentheses](https://github.com/qingziyu/leetcode-training/tree/main/0020-valid-parentheses/) | Easy |
 | [0290-word-pattern](https://github.com/qingziyu/leetcode-training/tree/main/0290-word-pattern/) | Easy |
 | [0387-first-unique-character-in-a-string](https://github.com/qingziyu/leetcode-training/tree/main/0387-first-unique-character-in-a-string/) | Easy |
+| [0771-jewels-and-stones](https://github.com/qingziyu/leetcode-training/tree/main/0771-jewels-and-stones/) | Easy |
 | [0844-backspace-string-compare](https://github.com/qingziyu/leetcode-training/tree/main/0844-backspace-string-compare/) | Easy |
 | [1047-remove-all-adjacent-duplicates-in-string](https://github.com/qingziyu/leetcode-training/tree/main/1047-remove-all-adjacent-duplicates-in-string/) | Easy |
 ## 括号序列
