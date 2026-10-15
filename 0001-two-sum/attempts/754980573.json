@@ -1,0 +1,24 @@
+{
+  "submissionId": "754980573",
+  "status": "Accepted",
+  "timestamp": "2026-10-15T07:12:01.000Z",
+  "language": "Java",
+  "runtime": "152 ms",
+  "memory": "46.2 MB",
+  "passedTestCases": 65,
+  "totalTestCases": 65,
+  "failedTestcase": "",
+  "input": "",
+  "expectedOutput": "",
+  "actualOutput": "",
+  "compileError": "",
+  "runtimeError": "",
+  "timer": {
+    "source": "leetcode.cn-native-countdown",
+    "targetSeconds": null,
+    "remainingSeconds": 3358,
+    "elapsedSeconds": null,
+    "capturedAt": "2026-10-15T07:12:05.484Z"
+  },
+  "submissionUrl": "https://leetcode.cn/problems/two-sum/submissions/754980573/"
+}
