@@ -1,0 +1,24 @@
+{
+  "submissionId": "754980373",
+  "status": "Compile Error",
+  "timestamp": "2026-10-15T07:11:22.000Z",
+  "language": "Java",
+  "runtime": "N/A",
+  "memory": "N/A",
+  "passedTestCases": 0,
+  "totalTestCases": 4,
+  "failedTestcase": "",
+  "input": "",
+  "expectedOutput": "",
+  "actualOutput": "{\"compile_error\": \"Line 15: error: cannot find symbol\"}",
+  "compileError": "Line 15: error: cannot find symbol\n        throw new IllegalArugumentException(\"Didn't found answer\");\n                  ^\n  symbol:   class IllegalArugumentException\n  location: class Solution",
+  "runtimeError": "",
+  "timer": {
+    "source": "leetcode.cn-native-countdown",
+    "targetSeconds": null,
+    "remainingSeconds": 3358,
+    "elapsedSeconds": null,
+    "capturedAt": "2026-10-15T07:11:27.926Z"
+  },
+  "submissionUrl": "https://leetcode.cn/problems/two-sum/submissions/754980373/"
+}
